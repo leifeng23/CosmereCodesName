@@ -199,6 +199,11 @@ public class GameManager : MonoBehaviour
                 continue; // 对应的大标题未启用，跳过该子类别
             }
 
+            if (!codesNameEnableDic[codeName])
+            {
+                continue;
+            }
+
             if (codeName.ToString().StartsWith("Cosmere"))
             {
                 List<CosmereEntity> entityList = codesName.Cosmere;

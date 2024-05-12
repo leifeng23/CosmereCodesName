@@ -464,36 +464,36 @@ MonoBehaviour:
   - id: 9
     character: "\u6B20\u63CD\u8138"
     character_EN: Jerkface
-    spot: 
-    spot_EN: 
+    spot: "\u5CA9\u5C51\u661F"
+    spot_EN: Detritus
     concept: "\u61E6\u592B"
     concept_EN: Coward
   - id: 10
     character: "\u91D1\u739B\u7433"
     character_EN: Kimmalyn
-    spot: 
-    spot_EN: 
+    spot: "\u9996\u8981\u5E73\u53F0"
+    spot_EN: Platform Prime
     concept: "\u514B\u96F7\u5C14\u4EBA"
     concept_EN: Krell
   - id: 11
     character: "M\u673A\u5668"
     character_EN: M-Bot
-    spot: 
-    spot_EN: 
+    spot: "\u5149\u7206"
+    spot_EN: Lightburst
     concept: "\u672B\u65E5\u866B"
     concept_EN: Doomslug
   - id: 12
     character: "\u5E93\u7EB3"
     character_EN: Cuna
-    spot: 
-    spot_EN: 
+    spot: "\u5B64\u72EC\u4E4B\u5F71"
+    spot_EN: The Solitary Shadow
     concept: "\u72C4\u4FC4\u6D85\u4EBA"
     concept_EN: Diones
   - id: 13
     character: "\u963F\u62C9\u59AE\u514B"
     character_EN: Alanik
-    spot: 
-    spot_EN: 
+    spot: "\u575A\u57CE\u57FA\u5730"
+    spot_EN: Surehold
     concept: "\u8611\u83C7"
     concept_EN: Mushroom
   - id: 14
@@ -550,99 +550,99 @@ MonoBehaviour:
     character_EN: Banks
     spot: 
     spot_EN: 
-    concept: 
-    concept_EN: 
+    concept: "\u788E\u9885\u8005"
+    concept_EN: Skullbreaker
   - id: 22
     character: "\u6447\u6446"
     character_EN: Swing
     spot: 
     spot_EN: 
-    concept: 
-    concept_EN: 
+    concept: "\u5947\u76DB\u65CF"
+    concept_EN: Kitsen
   - id: 23
     character: "\u8D1D\u5361"
     character_EN: Becca
     spot: 
     spot_EN: 
-    concept: 
-    concept_EN: 
+    concept: "\u661F\u9645\u6218\u673A"
+    concept_EN: Starfighter
   - id: 24
     character: "\u5229\u683C"
     character_EN: Rig
     spot: 
     spot_EN: 
-    concept: 
-    concept_EN: 
+    concept: "\u91CD\u529B\u5BB9"
+    concept_EN: GravCaps
   - id: 25
     character: "\u7F57\u5947"
     character_EN: Rodge
     spot: 
     spot_EN: 
-    concept: 
-    concept_EN: 
+    concept: "\u5149\u77DB"
+    concept_EN: Light-Lance
   - id: 26
     character: "\u6668\u6F6E"
     character_EN: Morningtide
     spot: 
     spot_EN: 
-    concept: 
-    concept_EN: 
+    concept: "\u53CD\u5411\u9EA6\u54F2\u4F26\u8109\u51B2"
+    concept_EN: Inverted Magellan Pulse
   - id: 27
     character: "\u6BD4\u59C6"
     character_EN: Bim
     spot: 
     spot_EN: 
-    concept: 
-    concept_EN: 
+    concept: "\u897F\u683C\u7EA7"
+    concept_EN: Sigo
   - id: 28
     character: FM
     character_EN: FM
     spot: 
     spot_EN: 
-    concept: 
-    concept_EN: 
+    concept: "\u62A4\u76FE"
+    concept_EN: Shields
   - id: 29
     character: "\u963F\u56FE\u7F57"
     character_EN: Arturo
     spot: 
     spot_EN: 
-    concept: 
-    concept_EN: 
+    concept: "\u65AF\u62C9\u67E5\u7EA7"
+    concept_EN: Slatra
   - id: 30
     character: "\u80E1\u8482\u96C5"
     character_EN: Hudiya
     spot: 
     spot_EN: 
-    concept: 
-    concept_EN: 
+    concept: "\u6BC1\u706D\u70AE"
+    concept_EN: Distructor
   - id: 31
     character: "\u8D6B\u5C14"
     character_EN: Hurl
     spot: 
     spot_EN: 
-    concept: 
-    concept_EN: 
+    concept: "\u6CF0\u5C3C\u514B\u65AF\u866B"
+    concept_EN: Taynix
   - id: 32
     character: "\u8299\u857E\u96C5"
     character_EN: Freyja
     spot: 
     spot_EN: 
-    concept: 
-    concept_EN: 
+    concept: "\u8237\u4FA7\u56E2"
+    concept_EN: Broadsider
   - id: 33
     character: "\u5C0F\u5FEB"
     character_EN: Quick
     spot: 
     spot_EN: 
-    concept: 
-    concept_EN: 
+    concept: "\u70AE\u8F70\u56E2"
+    concept_EN: Cannonade
   - id: 34
-    character: 
-    character_EN: 
+    character: "\u8FFD\u51FB\u8005"
+    character_EN: Chaser
     spot: 
     spot_EN: 
-    concept: 
-    concept_EN: 
+    concept: "\u5FEB\u4E50\u7F57\u6770\u56E2"
+    concept_EN: Jolly Roger
   - id: 35
     character: 
     character_EN: 
