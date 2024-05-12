@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b36151703bdfc56449fc39f2599e3322, type: 3}
+  m_Name: CosmereCodesName
+  m_EditorClassIdentifier: 
+  Cosmere:
+  - id: 1
+    character: "\u963F\u591A\u6797\xB7\u5BC7\u6797"
+    character_EN: Adolin Kholin
+    spot: "\u963F\u52D2\u65AF\u5361"
+    spot_EN: Alethkar
+    concept: "\u7075\u4F53"
+    concept_EN: Spren
+  - id: 2
+    character: "\u5361\u62C9\u4E01"
+    character_EN: Kaladin
+    spot: "\u96C5\u514B\u7EF4\u5FB7"
+    spot_EN: Jah Keved
+    concept: "\u5149\u8F89\u9A91\u58EB\u56E2"
+    concept_EN: Knights Radiant
+  - id: 3
+    character: "\u6C99\u5170\xB7\u8FBE\u74E6"
+    character_EN: Shallan Davar
+    spot: "\u5361\u54C8\u5DF4\u5170\u65AF"
+    spot_EN: Kharbranth
+    concept: "\u98CE\u884C\u9A91\u58EB\u56E2"
+    concept_EN: Order of Windrunners
+  - id: 4
+    character: "\u8FBE\u529B\u62FF\xB7\u5BC7\u6797"
+    character_EN: Dalinar Kholin
+    spot: "\u6DF1\u56FD"
+    spot_EN: Shinovar
+    concept: "\u7834\u5929\u9A91\u58EB\u56E2"
+    concept_EN: Order of Skybreakers
+  - id: 5
+    character: "\u4F0A\u8212\u5A1C"
+    character_EN: Eshonai
+    spot: "\u6DF3\u6E56"
+    spot_EN: Purelake
+    concept: "\u5F52\u5C18\u9A91\u58EB\u56E2"
+    concept_EN: Order of Dustbringers
+  - id: 6
+    character: "\u6CFD\u65AF"
+    character_EN: Szeth
+    spot: "\u4E4C\u6709\u65AF\u9E93"
+    spot_EN: Urithiru
+    concept: "\u7F18\u821E\u9A91\u58EB\u56E2"
+    concept_EN: Order of Edgedancers
+  - id: 7
+    character: "\u96F7\u7EB3\u6797\xB7\u5BC7\u6797"
+    character_EN: Renarin Kholin
+    spot: "\u7834\u788E\u5E73\u539F"
+    spot_EN: Shattered Plains
+    concept: "\u8BC6\u771F\u9A91\u58EB\u56E2"
+    concept_EN: Order of Truthwatchers
+  - id: 8
+    character: "\u8FE6\u7199\u5A1C\xB7\u5BC7\u6797"
+    character_EN: Jasnah Kholin
+    spot: "\u88C2\u5F71\u754C"
+    spot_EN: Shadesmar
+    concept: "\u7EC7\u5149\u9A91\u58EB\u56E2"
+    concept_EN: Order of Lightweavers
+  - id: 9
+    character: "\u7EB3\u74E6\u59AE\xB7\u5BC7\u6797"
+    character_EN: Navani Kholin
+    spot: 
+    spot_EN: 
+    concept: "\u5F02\u5524\u9A91\u58EB\u56E2"
+    concept_EN: Order of Elsecallers
+  - id: 10
+    character: "\u8389\u8299\u7279"
+    character_EN: Lift
+    spot: 
+    spot_EN: 
+    concept: "\u5FF5\u5316\u9A91\u58EB\u56E2"
+    concept_EN: Order of Willshapers
+  - id: 11
+    character: "\u83AB\u963F\u4EC0"
+    character_EN: Moash
+    spot: 
+    spot_EN: 
+    concept: "\u62A4\u5730\u9A91\u58EB\u56E2"
+    concept_EN: Order of Stonewards
+  - id: 12
+    character: "\u5854\u62C9\u6A0A\u5409\u5B89"
+    character_EN: Taravangian
+    spot: 
+    spot_EN: 
+    concept: "\u94F8\u5951\u9A91\u58EB\u56E2"
+    concept_EN: Order of Bondsmiths
+  - id: 13
+    character: "\u5854\u62C9\u5185"
+    character_EN: Talenel
+    spot: 
+    spot_EN: 
+    concept: "\u98D3\u5149"
+    concept_EN: Stormlight
+  - id: 14
+    character: "\u831C\u8299\u854A\u5A1C"
+    character_EN: Sylphrena
+    spot: 
+    spot_EN: 
+    concept: "\u98D3\u98CE"
+    concept_EN: Highstorm
+  - id: 15
+    character: "\u56FE\u817E"
+    character_EN: Pattern
+    spot: 
+    spot_EN: 
+    concept: "\u98D3\u80FD"
+    concept_EN: Surge
+  - id: 16
+    character: "\u98D3\u98CE\u4E4B\u7236"
+    character_EN: Stormfather
+    spot: 
+    spot_EN: 
+    concept: "\u706D\u4E16\u98CE\u66B4"
+    concept_EN: Everstorm
+  - id: 17
+    character: "\u6492\u5357\u5FD2"
+    character_EN: Sja-anat
+    spot: 
+    spot_EN: 
+    concept: "\u788E\u745B\u5203"
+    concept_EN: Shardblade
+  - id: 18
+    character: "\u591C\u8840"
+    character_EN: Nightblood
+    spot: 
+    spot_EN: 
+    concept: "\u788E\u745B\u7532"
+    concept_EN: Shardplate
+  - id: 19
+    character: 
+    character_EN: 
+    spot: 
+    spot_EN: 
+    concept: "\u6DA6\u77F3"
+    concept_EN: Spheres
+  - id: 20
+    character: 
+    character_EN: 
+    spot: 
+    spot_EN: 
+    concept: "\u788E\u745B\u6B66\u58EB"
+    concept_EN: Shardbearer
+  - id: 21
+    character: 
+    character_EN: 
+    spot: 
+    spot_EN: 
+    concept: "\u5149\u773C\u79CD"
+    concept_EN: Lighteyes
+  - id: 22
+    character: 
+    character_EN: 
+    spot: 
+    spot_EN: 
+    concept: "\u6697\u773C\u79CD"
+    concept_EN: Darkeyes
+  - id: 23
+    character: 
+    character_EN: 
+    spot: 
+    spot_EN: 
+    concept: "\u6C83\u6797\u6559"
+    concept_EN: Vorinism
+  Cytonic:
+  - id: 0
+    character: 
+    character_EN: 
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
