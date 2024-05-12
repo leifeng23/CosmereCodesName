@@ -3,23 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+public enum CodesName
+{
+    Cosmere,
+    CosmereBooks,
+    CosmereCharacters,
+    CosmereCulture,
+    CosmereEventsAndEras,
+    CosmereLocations,
+    CosmereMagic,
+    CosmereObjectAndMaterial,
+    Cytonic,
+    CytonicCharacters,
+    CytonicSpots,
+    CytonicConcepts,
+}
+
 public class GameManager : MonoBehaviour
 {
-    public enum CodesName
-    {
-        Cosmere,
-        CosmereCharacter,
-        CosmereSpot,
-        CosmereConcept,
-        Cytonic,
-        CytonicCharacter,
-        CytonicSpot,
-        CytonicConcept,
-    }
-
-    public CosmereCodesName cosmereCodesName;
+    private bool isSpy = false;
+    private List<Faction> randomColor;
+    public CosmereCodesName codesName;
     public List<Toggle> toggleList;
-    // 字典储存每个CodesName的布尔值状态
+    public List<Slate> slates;
     public Dictionary<CodesName, bool> codesNameEnableDic;
     public Dictionary<int, (string, string)> codesNameDic;     // 中文and英文 
 
@@ -37,7 +43,6 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                // 未找到保存的值，设置默认值（例如false）
                 codesNameEnableDic[code] = true;
             }
         }
@@ -71,9 +76,13 @@ public class GameManager : MonoBehaviour
         toggleList[1].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
         toggleList[2].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
         toggleList[3].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
-        toggleList[5].gameObject.SetActive(codesNameEnableDic[CodesName.Cytonic]);
-        toggleList[6].gameObject.SetActive(codesNameEnableDic[CodesName.Cytonic]);
-        toggleList[7].gameObject.SetActive(codesNameEnableDic[CodesName.Cytonic]);
+        toggleList[4].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
+        toggleList[5].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
+        toggleList[6].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
+        toggleList[7].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
+        toggleList[9].gameObject.SetActive(codesNameEnableDic[CodesName.Cytonic]);
+        toggleList[10].gameObject.SetActive(codesNameEnableDic[CodesName.Cytonic]);
+        toggleList[11].gameObject.SetActive(codesNameEnableDic[CodesName.Cytonic]);
     }
 
     public void SaveCodesNameEnable(CodesName cN, bool isOn)
@@ -86,6 +95,93 @@ public class GameManager : MonoBehaviour
         // }
     }
 
+    #region GameCode
+    public void GameBegin()
+    {
+        UpdateCodesNameDic(); // 更新字典
+        RandomColor();
+
+        // 从字典中随机选取 25 个不重复的单词
+        List<int> selectedKeys = GetRandomKeys(codesNameDic, 25);
+
+        // 设置每个 Slate 的单词、颜色和初始化
+        for (int i = 0; i < slates.Count; i++)
+        {
+            if (i < selectedKeys.Count)
+            {
+                (string chinese, string english) = codesNameDic[selectedKeys[i]];
+                Faction faction = GetFaction(i); // 获取阵营颜色
+                slates[i].Init(chinese, english, faction);
+                // slates[i].UpdateColor(); // 更新颜色
+            }
+            else
+            {
+                // 没有足够的单词，隐藏多余的 Slate
+                slates[i].gameObject.SetActive(false);
+            }
+        }
+    }
+
+    private List<int> GetRandomKeys(Dictionary<int, (string, string)> dictionary, int count)
+    {
+        List<int> keys = new List<int>(dictionary.Keys);
+        if (count >= keys.Count) // 如果 count 超过字典的键数量，直接返回所有键
+        {
+            return keys;
+        }
+
+        // 使用 Fisher-Yates 洗牌算法打乱键的顺序
+        for (int i = keys.Count - 1; i > 0; i--)
+        {
+            int j = UnityEngine.Random.Range(0, i + 1);
+            (keys[i], keys[j]) = (keys[j], keys[i]);
+        }
+
+        return keys.GetRange(0, count);
+    }
+
+    // 辅助函数：根据索引获取阵营颜色
+    private void RandomColor()
+    {
+        randomColor = new List<Faction>();
+        for (int i = 0; i < 9; i++) randomColor.Add(Faction.Red);
+        for (int i = 0; i < 8; i++) randomColor.Add(Faction.Blue);
+        for (int i = 0; i < 7; i++) randomColor.Add(Faction.Neutral);
+        randomColor.Add(Faction.Boom);
+
+        // 打乱列表顺序
+        for (int i = randomColor.Count - 1; i > 0; i--)
+        {
+            int j = UnityEngine.Random.Range(0, i + 1);
+            (randomColor[i], randomColor[j]) = (randomColor[j], randomColor[i]);
+        }
+    }
+
+    private Faction GetFaction(int index)
+    {
+        return randomColor[index];
+    }
+
+    public void ClickSpyButton()
+    {
+        isSpy = !isSpy;
+        foreach (var s in slates)
+        {
+            if (!s.isClicked)
+            {
+                s.UpdateColor(isSpy);
+            }
+        }
+    }
+
+    public void ClickExitButton()
+    {
+        isSpy = false;
+    }
+
+    #endregion
+
+    #region UpdateDic
     public void UpdateCodesNameDic()
     {
         codesNameDic = new Dictionary<int, (string, string)>();
@@ -93,27 +189,44 @@ public class GameManager : MonoBehaviour
 
         foreach (CodesName codeName in Enum.GetValues(typeof(CodesName)))
         {
-            if (IsMainCategory(codeName) && !codesNameEnableDic[codeName])
+            if (IsMainCategory(codeName))
             {
-                continue; // 大标题未启用，跳过该类别
+                continue; // 跳过大标题
             }
 
-            if (!IsMainCategory(codeName) && !codesNameEnableDic[GetParentCategory(codeName)])
+            if (!codesNameEnableDic[GetParentCategory(codeName)])
             {
                 continue; // 对应的大标题未启用，跳过该子类别
             }
 
-            List<CodesNameEntity> entityList = codeName.ToString().StartsWith("Cosmere") ? cosmereCodesName.Cosmere : cosmereCodesName.Cytonic;
-
-            foreach (CodesNameEntity entity in entityList)
+            if (codeName.ToString().StartsWith("Cosmere"))
             {
-                string chinese = GetNonEmptyString(entity, codeName);
-                string english = GetNonEmptyString(entity, codeName, true);
-
-                if (!string.IsNullOrEmpty(chinese) && !string.IsNullOrEmpty(english))
+                List<CosmereEntity> entityList = codesName.Cosmere;
+                foreach (CosmereEntity entity in entityList)
                 {
-                    codesNameDic[currentId] = (chinese, english);
-                    currentId++;
+                    string chinese = GetNonEmptyString(entity, codeName);
+                    string english = GetNonEmptyString(entity, codeName, true);
+
+                    if (!string.IsNullOrEmpty(chinese) && !string.IsNullOrEmpty(english))
+                    {
+                        codesNameDic[currentId] = (chinese, english);
+                        currentId++;
+                    }
+                }
+            }
+            else if (codeName.ToString().StartsWith("Cytonic"))
+            {
+                List<CytonicEntity> entityList = codesName.Cytonic;
+                foreach (CytonicEntity entity in entityList)
+                {
+                    string chinese = GetNonEmptyString(entity, codeName);
+                    string english = GetNonEmptyString(entity, codeName, true);
+
+                    if (!string.IsNullOrEmpty(chinese) && !string.IsNullOrEmpty(english))
+                    {
+                        codesNameDic[currentId] = (chinese, english);
+                        currentId++;
+                    }
                 }
             }
         }
@@ -129,21 +242,42 @@ public class GameManager : MonoBehaviour
         return codeName.ToString().StartsWith("Cosmere") ? CodesName.Cosmere : CodesName.Cytonic;
     }
 
-    private string GetNonEmptyString(CodesNameEntity entity, CodesName codeName, bool isEnglish = false)
+    private string GetNonEmptyString(CosmereEntity entity, CodesName codeName, bool isEnglish = false)
     {
         switch (codeName)
         {
-            case CodesName.CosmereCharacter:
-            case CodesName.CytonicCharacter:
+            case CodesName.CosmereBooks:
+                return isEnglish ? entity.books_EN : entity.books;
+            case CodesName.CosmereCharacters:
+                return isEnglish ? entity.characters_EN : entity.characters;
+            case CodesName.CosmereCulture:
+                return isEnglish ? entity.culture_EN : entity.culture;
+            case CodesName.CosmereEventsAndEras:
+                return isEnglish ? entity.eventsAndEras_EN : entity.eventsAndEras;
+            case CodesName.CosmereLocations:
+                return isEnglish ? entity.locations_EN : entity.locations;
+            case CodesName.CosmereMagic:
+                return isEnglish ? entity.magic_EN : entity.magic;
+            case CodesName.CosmereObjectAndMaterial:
+                return isEnglish ? entity.objectAndMaterial_EN : entity.objectAndMaterial;
+            default:
+                return string.Empty;
+        }
+    }
+
+    private string GetNonEmptyString(CytonicEntity entity, CodesName codeName, bool isEnglish = false)
+    {
+        switch (codeName)
+        {
+            case CodesName.CytonicCharacters:
                 return isEnglish ? entity.character_EN : entity.character;
-            case CodesName.CosmereSpot:
-            case CodesName.CytonicSpot:
+            case CodesName.CytonicSpots:
                 return isEnglish ? entity.spot_EN : entity.spot;
-            case CodesName.CosmereConcept:
-            case CodesName.CytonicConcept:
+            case CodesName.CytonicConcepts:
                 return isEnglish ? entity.concept_EN : entity.concept;
             default:
                 return string.Empty;
         }
     }
+    #endregion
 }

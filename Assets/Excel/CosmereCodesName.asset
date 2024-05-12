@@ -14,168 +14,678 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cosmere:
   - id: 1
-    character: "\u963F\u591A\u6797\xB7\u5BC7\u6797"
-    character_EN: Adolin Kholin
-    spot: "\u963F\u52D2\u65AF\u5361"
-    spot_EN: Alethkar
-    concept: "\u7075\u4F53"
-    concept_EN: Spren
+    books: 
+    books_EN: 
+    characters: "\u963F\u591A\u6797\xB7\u5BC7\u6797"
+    characters_EN: Adolin Kholin
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: "\u963F\u52D2\u65AF\u5361"
+    locations_EN: Alethkar
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u7075\u4F53"
+    objectAndMaterial_EN: 
   - id: 2
-    character: "\u5361\u62C9\u4E01"
-    character_EN: Kaladin
-    spot: "\u96C5\u514B\u7EF4\u5FB7"
-    spot_EN: Jah Keved
-    concept: "\u5149\u8F89\u9A91\u58EB\u56E2"
-    concept_EN: Knights Radiant
+    books: 
+    books_EN: 
+    characters: "\u5361\u62C9\u4E01"
+    characters_EN: Kaladin
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: "\u96C5\u514B\u7EF4\u5FB7"
+    locations_EN: Jah Keved
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u5149\u8F89\u9A91\u58EB\u56E2"
+    objectAndMaterial_EN: 
   - id: 3
-    character: "\u6C99\u5170\xB7\u8FBE\u74E6"
-    character_EN: Shallan Davar
-    spot: "\u5361\u54C8\u5DF4\u5170\u65AF"
-    spot_EN: Kharbranth
-    concept: "\u98CE\u884C\u9A91\u58EB\u56E2"
-    concept_EN: Order of Windrunners
+    books: 
+    books_EN: 
+    characters: "\u6C99\u5170\xB7\u8FBE\u74E6"
+    characters_EN: Shallan Davar
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: "\u5361\u54C8\u5DF4\u5170\u65AF"
+    locations_EN: Kharbranth
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u98CE\u884C\u9A91\u58EB\u56E2"
+    objectAndMaterial_EN: 
   - id: 4
-    character: "\u8FBE\u529B\u62FF\xB7\u5BC7\u6797"
-    character_EN: Dalinar Kholin
-    spot: "\u6DF1\u56FD"
-    spot_EN: Shinovar
-    concept: "\u7834\u5929\u9A91\u58EB\u56E2"
-    concept_EN: Order of Skybreakers
+    books: 
+    books_EN: 
+    characters: "\u8FBE\u529B\u62FF\xB7\u5BC7\u6797"
+    characters_EN: Dalinar Kholin
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: "\u6DF1\u56FD"
+    locations_EN: Shinovar
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u7834\u5929\u9A91\u58EB\u56E2"
+    objectAndMaterial_EN: 
   - id: 5
-    character: "\u4F0A\u8212\u5A1C"
-    character_EN: Eshonai
-    spot: "\u6DF3\u6E56"
-    spot_EN: Purelake
-    concept: "\u5F52\u5C18\u9A91\u58EB\u56E2"
-    concept_EN: Order of Dustbringers
+    books: 
+    books_EN: 
+    characters: "\u4F0A\u8212\u5A1C"
+    characters_EN: Eshonai
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: "\u6DF3\u6E56"
+    locations_EN: Purelake
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u5F52\u5C18\u9A91\u58EB\u56E2"
+    objectAndMaterial_EN: 
   - id: 6
-    character: "\u6CFD\u65AF"
-    character_EN: Szeth
-    spot: "\u4E4C\u6709\u65AF\u9E93"
-    spot_EN: Urithiru
-    concept: "\u7F18\u821E\u9A91\u58EB\u56E2"
-    concept_EN: Order of Edgedancers
+    books: 
+    books_EN: 
+    characters: "\u6CFD\u65AF"
+    characters_EN: Szeth
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: "\u4E4C\u6709\u65AF\u9E93"
+    locations_EN: Urithiru
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u7F18\u821E\u9A91\u58EB\u56E2"
+    objectAndMaterial_EN: 
   - id: 7
-    character: "\u96F7\u7EB3\u6797\xB7\u5BC7\u6797"
-    character_EN: Renarin Kholin
-    spot: "\u7834\u788E\u5E73\u539F"
-    spot_EN: Shattered Plains
-    concept: "\u8BC6\u771F\u9A91\u58EB\u56E2"
-    concept_EN: Order of Truthwatchers
+    books: 
+    books_EN: 
+    characters: "\u96F7\u7EB3\u6797\xB7\u5BC7\u6797"
+    characters_EN: Renarin Kholin
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: "\u7834\u788E\u5E73\u539F"
+    locations_EN: Shattered Plains
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u8BC6\u771F\u9A91\u58EB\u56E2"
+    objectAndMaterial_EN: 
   - id: 8
-    character: "\u8FE6\u7199\u5A1C\xB7\u5BC7\u6797"
-    character_EN: Jasnah Kholin
-    spot: "\u88C2\u5F71\u754C"
-    spot_EN: Shadesmar
-    concept: "\u7EC7\u5149\u9A91\u58EB\u56E2"
-    concept_EN: Order of Lightweavers
+    books: 
+    books_EN: 
+    characters: "\u8FE6\u7199\u5A1C\xB7\u5BC7\u6797"
+    characters_EN: Jasnah Kholin
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: "\u88C2\u5F71\u754C"
+    locations_EN: Shadesmar
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u7EC7\u5149\u9A91\u58EB\u56E2"
+    objectAndMaterial_EN: 
   - id: 9
-    character: "\u7EB3\u74E6\u59AE\xB7\u5BC7\u6797"
-    character_EN: Navani Kholin
-    spot: 
-    spot_EN: 
-    concept: "\u5F02\u5524\u9A91\u58EB\u56E2"
-    concept_EN: Order of Elsecallers
+    books: 
+    books_EN: 
+    characters: "\u7EB3\u74E6\u59AE\xB7\u5BC7\u6797"
+    characters_EN: Navani Kholin
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u5F02\u5524\u9A91\u58EB\u56E2"
+    objectAndMaterial_EN: 
   - id: 10
-    character: "\u8389\u8299\u7279"
-    character_EN: Lift
-    spot: 
-    spot_EN: 
-    concept: "\u5FF5\u5316\u9A91\u58EB\u56E2"
-    concept_EN: Order of Willshapers
+    books: 
+    books_EN: 
+    characters: "\u8389\u8299\u7279"
+    characters_EN: Lift
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u5FF5\u5316\u9A91\u58EB\u56E2"
+    objectAndMaterial_EN: 
   - id: 11
-    character: "\u83AB\u963F\u4EC0"
-    character_EN: Moash
-    spot: 
-    spot_EN: 
-    concept: "\u62A4\u5730\u9A91\u58EB\u56E2"
-    concept_EN: Order of Stonewards
+    books: 
+    books_EN: 
+    characters: "\u83AB\u963F\u4EC0"
+    characters_EN: Moash
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u62A4\u5730\u9A91\u58EB\u56E2"
+    objectAndMaterial_EN: 
   - id: 12
-    character: "\u5854\u62C9\u6A0A\u5409\u5B89"
-    character_EN: Taravangian
-    spot: 
-    spot_EN: 
-    concept: "\u94F8\u5951\u9A91\u58EB\u56E2"
-    concept_EN: Order of Bondsmiths
+    books: 
+    books_EN: 
+    characters: "\u5854\u62C9\u6A0A\u5409\u5B89"
+    characters_EN: Taravangian
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u94F8\u5951\u9A91\u58EB\u56E2"
+    objectAndMaterial_EN: 
   - id: 13
-    character: "\u5854\u62C9\u5185"
-    character_EN: Talenel
-    spot: 
-    spot_EN: 
-    concept: "\u98D3\u5149"
-    concept_EN: Stormlight
+    books: 
+    books_EN: 
+    characters: "\u5854\u62C9\u5185"
+    characters_EN: Talenel
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u98D3\u5149"
+    objectAndMaterial_EN: 
   - id: 14
-    character: "\u831C\u8299\u854A\u5A1C"
-    character_EN: Sylphrena
-    spot: 
-    spot_EN: 
-    concept: "\u98D3\u98CE"
-    concept_EN: Highstorm
+    books: 
+    books_EN: 
+    characters: "\u831C\u8299\u854A\u5A1C"
+    characters_EN: Sylphrena
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u98D3\u98CE"
+    objectAndMaterial_EN: 
   - id: 15
-    character: "\u56FE\u817E"
-    character_EN: Pattern
-    spot: 
-    spot_EN: 
-    concept: "\u98D3\u80FD"
-    concept_EN: Surge
+    books: 
+    books_EN: 
+    characters: "\u56FE\u817E"
+    characters_EN: Pattern
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u98D3\u80FD"
+    objectAndMaterial_EN: 
   - id: 16
-    character: "\u98D3\u98CE\u4E4B\u7236"
-    character_EN: Stormfather
-    spot: 
-    spot_EN: 
-    concept: "\u706D\u4E16\u98CE\u66B4"
-    concept_EN: Everstorm
+    books: 
+    books_EN: 
+    characters: "\u98D3\u98CE\u4E4B\u7236"
+    characters_EN: Stormfather
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u706D\u4E16\u98CE\u66B4"
+    objectAndMaterial_EN: 
   - id: 17
-    character: "\u6492\u5357\u5FD2"
-    character_EN: Sja-anat
-    spot: 
-    spot_EN: 
-    concept: "\u788E\u745B\u5203"
-    concept_EN: Shardblade
+    books: 
+    books_EN: 
+    characters: "\u6492\u5357\u5FD2"
+    characters_EN: Sja-anat
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u788E\u745B\u5203"
+    objectAndMaterial_EN: 
   - id: 18
-    character: "\u591C\u8840"
-    character_EN: Nightblood
-    spot: 
-    spot_EN: 
-    concept: "\u788E\u745B\u7532"
-    concept_EN: Shardplate
+    books: 
+    books_EN: 
+    characters: "\u591C\u8840"
+    characters_EN: Nightblood
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u788E\u745B\u7532"
+    objectAndMaterial_EN: 
   - id: 19
-    character: 
-    character_EN: 
-    spot: 
-    spot_EN: 
-    concept: "\u6DA6\u77F3"
-    concept_EN: Spheres
+    books: 
+    books_EN: 
+    characters: 
+    characters_EN: 
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u6DA6\u77F3"
+    objectAndMaterial_EN: 
   - id: 20
-    character: 
-    character_EN: 
-    spot: 
-    spot_EN: 
-    concept: "\u788E\u745B\u6B66\u58EB"
-    concept_EN: Shardbearer
+    books: 
+    books_EN: 
+    characters: 
+    characters_EN: 
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u788E\u745B\u6B66\u58EB"
+    objectAndMaterial_EN: 
   - id: 21
-    character: 
-    character_EN: 
-    spot: 
-    spot_EN: 
-    concept: "\u5149\u773C\u79CD"
-    concept_EN: Lighteyes
+    books: 
+    books_EN: 
+    characters: 
+    characters_EN: 
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u5149\u773C\u79CD"
+    objectAndMaterial_EN: 
   - id: 22
-    character: 
-    character_EN: 
-    spot: 
-    spot_EN: 
-    concept: "\u6697\u773C\u79CD"
-    concept_EN: Darkeyes
+    books: 
+    books_EN: 
+    characters: 
+    characters_EN: 
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u6697\u773C\u79CD"
+    objectAndMaterial_EN: 
   - id: 23
+    books: 
+    books_EN: 
+    characters: 
+    characters_EN: 
+    culture: 
+    culture_EN: 
+    eventsAndEras: 
+    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: "\u6C83\u6797\u6559"
+    objectAndMaterial_EN: 
+  Cytonic:
+  - id: 1
+    character: "\u7EA6\u5C14\u5EF6"
+    character_EN: Jorgen
+    spot: "\u661F\u666F"
+    spot_EN: Starsight
+    concept: "\u6CE2\u79D1\u7EA7"
+    concept_EN: Poco
+  - id: 2
+    character: "\u5185\u5FB7"
+    character_EN: Nedd
+    spot: "\u65E0\u5904"
+    spot_EN: Nowhere
+    concept: "\u547C\u53F7"
+    concept_EN: Callsign
+  - id: 3
+    character: "\u6E29\u5951\u514B"
+    character_EN: Winzik
+    spot: "\u957F\u8005\u4E4B\u8DEF"
+    spot_EN: Path of Elders
+    concept: "\u4E0A\u5347\u73AF"
+    concept_EN: Acclivity Ring
+  - id: 4
+    character: "\u83AB\u91CC\u4E4C\u83AB"
+    character_EN: Morriumur
+    spot: "\u781D\u7801\u4E0E\u6D4B\u91CF\u53F7"
+    spot_EN: 'Weights and Measures '
+    concept: "\u74E6\u5C14\u74E6\u514B\u65AF\u4EBA"
+    concept_EN: Varvax
+  - id: 5
+    character: "\u591C\u5F71"
+    character_EN: Nightshade
+    spot: "\u6D1E\u7A74"
+    spot_EN: Cavern
+    concept: "\u81F3\u5C0A\u540C\u76DF"
+    concept_EN: Superiority
+  - id: 6
+    character: "\u65AF\u82F9"
+    character_EN: Spin
+    spot: "\u5730\u8868"
+    spot_EN: Surface
+    concept: "\u963F\u5C14\u5854\u4E4B\u6218"
+    concept_EN: Battle of Alta
+  - id: 7
+    character: "\u79D1\u5E03"
+    character_EN: Cobb
+    spot: "\u98DE\u884C\u5B66\u9662"
+    spot_EN: Flight School
+    concept: "\u63A2\u7A76\u8005"
+    concept_EN: Delvers
+  - id: 8
+    character: "\u65AF\u6F58\u838E"
+    character_EN: Spensa
+    spot: "\u963F\u5C14\u5854\u57FA\u5730"
+    spot_EN: Alta Base
+    concept: "\u585E\u6258\u80FD\u529B\u8005"
+    concept_EN: Cytonics
+  - id: 9
+    character: "\u6B20\u63CD\u8138"
+    character_EN: Jerkface
+    spot: 
+    spot_EN: 
+    concept: "\u61E6\u592B"
+    concept_EN: Coward
+  - id: 10
+    character: "\u91D1\u739B\u7433"
+    character_EN: Kimmalyn
+    spot: 
+    spot_EN: 
+    concept: "\u514B\u96F7\u5C14\u4EBA"
+    concept_EN: Krell
+  - id: 11
+    character: "M\u673A\u5668"
+    character_EN: M-Bot
+    spot: 
+    spot_EN: 
+    concept: "\u672B\u65E5\u866B"
+    concept_EN: Doomslug
+  - id: 12
+    character: "\u5E93\u7EB3"
+    character_EN: Cuna
+    spot: 
+    spot_EN: 
+    concept: "\u72C4\u4FC4\u6D85\u4EBA"
+    concept_EN: Diones
+  - id: 13
+    character: "\u963F\u62C9\u59AE\u514B"
+    character_EN: Alanik
+    spot: 
+    spot_EN: 
+    concept: "\u8611\u83C7"
+    concept_EN: Mushroom
+  - id: 14
+    character: "\u8587\u73C0"
+    character_EN: Vapor
+    spot: 
+    spot_EN: 
+    concept: "\u8001\u9F20"
+    concept_EN: Rat
+  - id: 15
+    character: "\u5E03\u857E\u5FB7"
+    character_EN: Brade
+    spot: 
+    spot_EN: 
+    concept: "\u5149\u7D22"
+    concept_EN: Light-line
+  - id: 16
+    character: "\u5E0C\u4FEE"
+    character_EN: Hesho
+    spot: 
+    spot_EN: 
+    concept: "\u98DE\u884C\u5458"
+    concept_EN: Pilot
+  - id: 17
+    character: "\u7956\u6BCD"
+    character_EN: Gran-Gran
+    spot: 
+    spot_EN: 
+    concept: "\u6B8B\u9AB8"
+    concept_EN: Debris
+  - id: 18
+    character: "\u94C1\u7532"
+    character_EN: Ironsides
+    spot: 
+    spot_EN: 
+    concept: "\u62C9\u5C14\u6208\u7EA7"
+    concept_EN: Largo
+  - id: 19
+    character: "\u6731\u8FEA"
+    character_EN: Judy
+    spot: 
+    spot_EN: 
+    concept: "\u4FA6\u5BDF\u673A"
+    concept_EN: Scout
+  - id: 20
+    character: "\u6DF7\u8840\u72AC"
+    character_EN: Mongrel
+    spot: 
+    spot_EN: 
+    concept: "\u706D\u751F\u70B8\u5F39"
+    concept_EN: Lifebuster
+  - id: 21
+    character: "\u73ED\u514B\u65AF"
+    character_EN: Banks
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 22
+    character: "\u6447\u6446"
+    character_EN: Swing
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 23
+    character: "\u8D1D\u5361"
+    character_EN: Becca
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 24
+    character: "\u5229\u683C"
+    character_EN: Rig
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 25
+    character: "\u7F57\u5947"
+    character_EN: Rodge
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 26
+    character: "\u6668\u6F6E"
+    character_EN: Morningtide
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 27
+    character: "\u6BD4\u59C6"
+    character_EN: Bim
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 28
+    character: FM
+    character_EN: FM
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 29
+    character: "\u963F\u56FE\u7F57"
+    character_EN: Arturo
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 30
+    character: "\u80E1\u8482\u96C5"
+    character_EN: Hudiya
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 31
+    character: "\u8D6B\u5C14"
+    character_EN: Hurl
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 32
+    character: "\u8299\u857E\u96C5"
+    character_EN: Freyja
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 33
+    character: "\u5C0F\u5FEB"
+    character_EN: Quick
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 34
     character: 
     character_EN: 
     spot: 
     spot_EN: 
-    concept: "\u6C83\u6797\u6559"
-    concept_EN: Vorinism
-  Cytonic:
-  - id: 0
+    concept: 
+    concept_EN: 
+  - id: 35
+    character: 
+    character_EN: 
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 36
+    character: 
+    character_EN: 
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 37
+    character: 
+    character_EN: 
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 38
+    character: 
+    character_EN: 
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 39
+    character: 
+    character_EN: 
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 40
+    character: 
+    character_EN: 
+    spot: 
+    spot_EN: 
+    concept: 
+    concept_EN: 
+  - id: 41
     character: 
     character_EN: 
     spot: 
