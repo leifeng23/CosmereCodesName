@@ -6,10 +6,8 @@ using UnityEngine.UI;
 public enum CodesName
 {
     Cosmere,
-    CosmereBooks,
     CosmereCharacters,
     CosmereCulture,
-    CosmereEventsAndEras,
     CosmereLocations,
     CosmereMagic,
     CosmereObjectAndMaterial,
@@ -78,11 +76,9 @@ public class GameManager : MonoBehaviour
         toggleList[3].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
         toggleList[4].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
         toggleList[5].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
-        toggleList[6].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
-        toggleList[7].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
+        toggleList[7].gameObject.SetActive(codesNameEnableDic[CodesName.Cytonic]);
+        toggleList[8].gameObject.SetActive(codesNameEnableDic[CodesName.Cytonic]);
         toggleList[9].gameObject.SetActive(codesNameEnableDic[CodesName.Cytonic]);
-        toggleList[10].gameObject.SetActive(codesNameEnableDic[CodesName.Cytonic]);
-        toggleList[11].gameObject.SetActive(codesNameEnableDic[CodesName.Cytonic]);
     }
 
     public void SaveCodesNameEnable(CodesName cN, bool isOn)
@@ -251,14 +247,10 @@ public class GameManager : MonoBehaviour
     {
         switch (codeName)
         {
-            case CodesName.CosmereBooks:
-                return isEnglish ? entity.books_EN : entity.books;
             case CodesName.CosmereCharacters:
                 return isEnglish ? entity.characters_EN : entity.characters;
             case CodesName.CosmereCulture:
                 return isEnglish ? entity.culture_EN : entity.culture;
-            case CodesName.CosmereEventsAndEras:
-                return isEnglish ? entity.eventsAndEras_EN : entity.eventsAndEras;
             case CodesName.CosmereLocations:
                 return isEnglish ? entity.locations_EN : entity.locations;
             case CodesName.CosmereMagic:

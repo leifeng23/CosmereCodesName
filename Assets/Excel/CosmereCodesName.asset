@@ -14,558 +14,504 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cosmere:
   - id: 1
-    books: 
-    books_EN: 
     characters: "\u963F\u591A\u6797"
     characters_EN: Adolin
-    culture: "\u6C83\u6797\u6559"
-    culture_EN: Vorinism
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: "\u7075\u4F53"
+    culture: "\u9555\u91D1\u672F\u5E08"
+    culture_EN: Allomancer
+    lifeforms: "\u65A7\u8E44\u9E7F"
     lifeforms_EN: 
     locations: "\u963F\u52D2\u65AF\u5361"
     locations_EN: Alethkar
-    magic: "\u98D3\u5149"
-    magic_EN: Stormlight
-    objectAndMaterial: "\u548C\u8C10\u91D1"
+    magic: "\u6469\u52A8"
+    magic_EN: Abrasion
+    objectAndMaterial: "\u4EE5\u592A"
     objectAndMaterial_EN: 
   - id: 2
-    books: 
-    books_EN: 
-    characters: "\u5361\u62C9\u4E01"
-    characters_EN: Kaladin
-    culture: "\u94ED\u6587"
-    culture_EN: Glyphs
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: "\u542C\u8005"
-    lifeforms_EN: 
-    locations: "\u96C5\u514B\u7EF4\u5FB7"
-    locations_EN: Jah Keved
-    magic: "\u98D3\u98CE"
-    magic_EN: Highstorm
-    objectAndMaterial: "\u91D1"
-    objectAndMaterial_EN: 
-  - id: 3
-    books: 
-    books_EN: 
-    characters: "\u6C99\u5170"
-    characters_EN: Shallan
-    culture: "\u5149\u773C\u79CD"
-    culture_EN: Lighteyes
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: "\u878D\u65CF"
-    lifeforms_EN: 
-    locations: "\u5361\u54C8\u5DF4\u5170\u65AF"
-    locations_EN: Kharbranth
-    magic: "\u98D3\u80FD"
-    magic_EN: Surge
-    objectAndMaterial: "\u5929\u91D1"
-    objectAndMaterial_EN: 
-  - id: 4
-    books: 
-    books_EN: 
-    characters: "\u8FBE\u529B\u62FF"
-    characters_EN: Dalinar
-    culture: "\u6697\u773C\u79CD"
-    culture_EN: Darkeyes
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: "\u4EC6\u65CF\u667A\u8005"
-    lifeforms_EN: 
-    locations: "\u6DF1\u56FD"
-    locations_EN: Shinovar
-    magic: "\u706D\u4E16\u98CE\u66B4"
-    magic_EN: Everstorm
-    objectAndMaterial: "\u94DD"
-    objectAndMaterial_EN: 
-  - id: 5
-    books: 
-    books_EN: 
-    characters: "\u4F0A\u8212\u5A1C"
-    characters_EN: Eshonai
-    culture: "\u98CE\u884C\u9A91\u58EB"
-    culture_EN: Windrunner
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: "\u534E\u65CF"
-    lifeforms_EN: 
-    locations: "\u6DF3\u6E56"
-    locations_EN: Purelake
-    magic: "\u9555\u91D1\u672F"
-    magic_EN: Allomancy
-    objectAndMaterial: "\u767D\u9574"
-    objectAndMaterial_EN: 
-  - id: 6
-    books: 
-    books_EN: 
-    characters: "\u6CFD\u65AF"
-    characters_EN: Szeth
-    culture: "\u7834\u5929\u9A91\u58EB"
-    culture_EN: Skybreaker
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: "\u98DE\u5929\u8005"
-    lifeforms_EN: 
-    locations: "\u4E4C\u6709\u65AF\u9E93"
-    locations_EN: Urithiru
-    magic: "\u85CF\u91D1\u672F"
-    magic_EN: Feruchemy
-    objectAndMaterial: "\u795E\u91D1"
-    objectAndMaterial_EN: 
-  - id: 7
-    books: 
-    books_EN: 
-    characters: "\u96F7\u7EB3\u6797"
-    characters_EN: Renarin
-    culture: "\u5F52\u5C18\u9A91\u58EB"
-    culture_EN: Dustbringer
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: "\u58A8\u7075"
-    lifeforms_EN: 
-    locations: "\u7834\u788E\u5E73\u539F"
-    locations_EN: Shattered Plains
-    magic: "\u8840\u91D1\u672F"
-    magic_EN: Hemalurgy
-    objectAndMaterial: "\u7EA2\u94DC"
-    objectAndMaterial_EN: 
-  - id: 8
-    books: 
-    books_EN: 
-    characters: "\u8FE6\u7199\u5A1C"
-    characters_EN: Jasnah
-    culture: "\u7F18\u821E\u9A91\u58EB"
-    culture_EN: Edgedancer
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: "\u88C2\u5F71\u754C"
-    locations_EN: Shadesmar
-    magic: "\u795E\u80FD"
-    magic_EN: Investiture
-    objectAndMaterial: "\u4FEE\u8EAB\u88D9"
-    objectAndMaterial_EN: 
-  - id: 9
-    books: 
-    books_EN: 
-    characters: "\u7EB3\u74E6\u59AE"
-    characters_EN: Navani
-    culture: "\u8BC6\u771F\u9A91\u58EB"
-    culture_EN: Truthwatcher
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: "\u67D4\u5239"
-    locations_EN: Roshar
-    magic: "\u5782\u8D2F\u70B9"
-    magic_EN: Perpendicularity
-    objectAndMaterial: "\u58EB\u7EC5\u888D"
-    objectAndMaterial_EN: 
-  - id: 10
-    books: 
-    books_EN: 
-    characters: "\u8389\u8299\u7279"
-    characters_EN: Lift
-    culture: "\u7EC7\u5149\u9A91\u58EB"
-    culture_EN: Lightweaver
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: "\u7EB3\u5C14\u897F\u65AF"
-    locations_EN: Nalthis
-    magic: "\u7075\u7F51"
-    magic_EN: Spiritweb
-    objectAndMaterial: "\u788E\u745B\u5203"
-    objectAndMaterial_EN: 
-  - id: 11
-    books: 
-    books_EN: 
-    characters: "\u83AB\u963F\u4EC0"
-    characters_EN: Moash
-    culture: "\u5F02\u5524\u9A91\u58EB"
-    culture_EN: Elsecaller
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: "\u53F8\u5361\u5FB7\u745E\u5C14"
-    locations_EN: Scadrial
-    magic: "\u5B58\u7559"
-    magic_EN: Preservation
-    objectAndMaterial: "\u788E\u745B\u7532"
-    objectAndMaterial_EN: 
-  - id: 12
-    books: 
-    books_EN: 
-    characters: "\u5854\u62C9\u6A0A\u5409\u5B89"
-    characters_EN: Taravangian
-    culture: "\u5FF5\u5316\u9A91\u58EB"
-    culture_EN: Willshaper
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: "\u745F\u5C14"
-    locations_EN: Sel
-    magic: "\u706D\u7EDD"
-    magic_EN: Ruin
-    objectAndMaterial: "\u6DA6\u77F3"
-    objectAndMaterial_EN: 
-  - id: 13
-    books: 
-    books_EN: 
-    characters: "\u5854\u62C9\u5185"
-    characters_EN: Talenel
-    culture: "\u62A4\u5730\u9A91\u58EB"
-    culture_EN: Stoneward
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: "\u4F9D\u5170\u6234"
-    locations_EN: Elendel
-    magic: "\u57F9\u517B"
-    magic_EN: Cultivation
-    objectAndMaterial: "\u8C36\u8BB0"
-    objectAndMaterial_EN: 
-  - id: 14
-    books: 
-    books_EN: 
-    characters: "\u831C\u8299\u854A\u5A1C"
-    characters_EN: Sylphrena
-    culture: "\u94F8\u5951\u9A91\u58EB"
-    culture_EN: Bondsmith
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: "\u4F0A\u5C9A\u7FE0"
-    locations_EN: Elentris
-    magic: "\u8363\u8A89"
-    magic_EN: Honor
-    objectAndMaterial: "\u6E21\u8A93"
-    objectAndMaterial_EN: 
-  - id: 15
-    books: 
-    books_EN: 
-    characters: "\u56FE\u817E"
-    characters_EN: Pattern
-    culture: "\u5149\u8F89\u9A91\u58EB\u56E2"
-    culture_EN: Knights Radiant
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
+    characters: "\u963F\u591A\u62FF\u897F"
+    characters_EN: Adonalsium
+    culture: "\u5E93\u85CF"
+    culture_EN: Archivist
+    lifeforms: "\u65A7\u72D0\u72AC"
     lifeforms_EN: 
     locations: "\u6DF1\u6E0A"
     locations_EN: Chasm
-    magic: "\u4EC7\u6068"
-    magic_EN: Odium
-    objectAndMaterial: "\u9F50\u666E"
+    magic: "\u675F\u7F1A"
+    magic_EN: Adhesion
+    objectAndMaterial: "\u94DD"
     objectAndMaterial_EN: 
-  - id: 16
-    books: 
-    books_EN: 
-    characters: "\u98D3\u98CE\u4E4B\u7236"
-    characters_EN: Stormfather
-    culture: "\u788E\u745B\u6B66\u58EB"
-    culture_EN: Shardbearer
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: "\u5C24\u4F26"
-    locations_EN: Yolen
-    magic: "\u7980\u8D4B"
-    magic_EN: Endowment
-    objectAndMaterial: "\u94C1"
-    objectAndMaterial_EN: 
-  - id: 17
-    books: 
-    books_EN: 
-    characters: "\u6492\u5357\u5FD2"
-    characters_EN: Sja-anat
-    culture: "\u63A0\u5F71"
-    culture_EN: Skimmer
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: "\u94F6\u5149\u57CE"
-    locations_EN: Silverlight
-    magic: "\u52C7\u6B66"
-    magic_EN: Valor
-    objectAndMaterial: "\u94A2"
-    objectAndMaterial_EN: 
-  - id: 18
-    books: 
-    books_EN: 
-    characters: "\u591C\u8840"
-    characters_EN: Nightblood
-    culture: "\u94A2\u5954"
-    culture_EN: Steelrunner
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: "\u5929\u633D"
-    locations_EN: Threnody
-    magic: "\u5316\u5883"
-    magic_EN: Virtuosity
-    objectAndMaterial: "\u9521"
-    objectAndMaterial_EN: 
-  - id: 19
-    books: 
-    books_EN: 
-    characters: "\u963F\u591A\u6797"
-    characters_EN: Adolin
-    culture: "\u626F\u624B"
-    culture_EN: Lurcher
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: "\u5947\u601D"
-    magic_EN: Whimsy
-    objectAndMaterial: "\u9EC4\u94DC"
-    objectAndMaterial_EN: 
-  - id: 20
-    books: 
-    books_EN: 
+  - id: 3
     characters: "\u9890\u6DD1\u4E39"
     characters_EN: Aesudan
-    culture: "\u5C04\u5E01"
-    culture_EN: Coinshot
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
+    culture: "\u6CD5\u5668\u5E08"
+    culture_EN: Artifabrian
+    lifeforms: "\u6DF1\u6E0A\u6076\u9B54"
     lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: "\u610F\u5FD7"
-    magic_EN: Ambition
-    objectAndMaterial: "\u950C "
+    locations: "\u77E5\u754C\u57DF"
+    locations_EN: Cognitive Realm
+    magic: "\u9555\u91D1\u672F"
+    magic_EN: Allomancy
+    objectAndMaterial: "\u5929\u91D1"
     objectAndMaterial_EN: 
-  - id: 21
-    books: 
-    books_EN: 
+  - id: 4
     characters: "\u5929\u9752"
     characters_EN: Azure
-    culture: "\u9521\u773C"
-    culture_EN: Tineye
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
+    culture: "\u547D\u5E08"
+    culture_EN: Augur
+    lifeforms: "\u7EA2\u7532\u87F9"
     lifeforms_EN: 
-    locations: 
-    locations_EN: 
+    locations: "\u4E09\u754C\u5B99"
+    locations_EN: Cosmere
+    magic: "\u610F\u5FD7"
+    magic_EN: Ambition
+    objectAndMaterial: "\u5F2F\u7BA1\u5408\u91D1"
+    objectAndMaterial_EN: 
+  - id: 5
+    characters: "\u5DF4\u4F10\u4E01"
+    characters_EN: Bavadin
+    culture: "\u5524\u9192\u8005"
+    culture_EN: Awakener
+    lifeforms: "\u79D8\u7075"
+    lifeforms_EN: 
+    locations: "\u8BC5\u5492\u4E4B\u5730"
+    locations_EN: Damnation
+    magic: "\u827E\u6B27\u94CE"
+    magic_EN: AonDor
+    objectAndMaterial: "\u9EC4\u94DC"
+    objectAndMaterial_EN: 
+  - id: 6
+    characters: "\u5FAE\u98CE"
+    characters_EN: Breeze
+    culture: "\u8840\u5370\u5E08"
+    culture_EN: Bloodsealer
+    lifeforms: "\u4EA1\u773C\u7075"
+    lifeforms_EN: 
+    locations: "\u4F0A\u5C9A\u7FE0"
+    locations_EN: Elantris
     magic: "\u81EA\u4E3B"
     magic_EN: Autonomy
     objectAndMaterial: "\u9752\u94DC"
     objectAndMaterial_EN: 
-  - id: 22
-    books: 
-    books_EN: 
-    characters: "\u4F0A\u5170\u5FB7"
-    characters_EN: Elend
-    culture: "\u717D\u52A8\u8005"
-    culture_EN: Rioter
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
+  - id: 7
+    characters: "\u8D5B\u51E1\u5FB7\u7409\u65AF"
+    characters_EN: Cephandrius
+    culture: "\u94F8\u5951\u9A91\u58EB"
+    culture_EN: Bondsmith
+    lifeforms: "\u878D\u65CF"
     lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: "\u5FE0\u7231"
-    magic_EN: Devotion
-    objectAndMaterial: "\u786C\u94DD"
+    locations: "\u4F9D\u5170\u6234"
+    locations_EN: Elendel
+    magic: "\u5524\u9192"
+    magic_EN: Awakening
+    objectAndMaterial: "\u9549"
     objectAndMaterial_EN: 
-  - id: 23
-    books: 
-    books_EN: 
-    characters: "\u7EB9"
-    characters_EN: Vin
-    culture: "\u6253\u624B"
-    culture_EN: Thug
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
+  - id: 8
+    characters: "\u5947\u91CC\u5947\u91CC"
+    characters_EN: Chiri-Chiri
+    culture: "\u86EE\u529B"
+    culture_EN: Brute
+    lifeforms: "\u98DE\u5929\u8005"
     lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: "\u7EDF\u5FA1"
-    magic_EN: Dominion
+    locations: "\u96C5\u514B\u7EF4\u5FB7"
+    locations_EN: Jah Keved
+    magic: "\u8840\u5370\u672F"
+    magic_EN: Bloodsealing
+    objectAndMaterial: "\u9F50\u666E"
+    objectAndMaterial_EN: 
+  - id: 9
+    characters: "\u8FBE\u529B\u62FF"
+    characters_EN: Dalinar
+    culture: "\u5C04\u5E01"
+    culture_EN: Coinshot
+    lifeforms: "\u58A8\u7075"
+    lifeforms_EN: 
+    locations: "\u5361\u54C8\u5DF4\u5170\u65AF"
+    locations_EN: Kharbranth
+    magic: "\u57F9\u517B"
+    magic_EN: Cultivation
     objectAndMaterial: "\u94EC"
     objectAndMaterial_EN: 
-  - id: 24
-    books: 
-    books_EN: 
-    characters: "\u6C99\u8D5B\u5FB7"
-    characters_EN: Sazed
-    culture: "\u767D\u9574\u81C2"
-    culture_EN: Pewterarm
-    eventsAndEras: 
-    eventsAndEras_EN: 
+  - id: 10
+    characters: "\u8FBE\u74E6"
+    characters_EN: Davar
+    culture: "\u70DF\u9635"
+    culture_EN: Copperclound
+    lifeforms: "\u98D3\u7532\u8702"
+    lifeforms_EN: 
+    locations: "\u5854\u51A0\u57CE"
+    locations_EN: Kholinar
+    magic: "\u5FE0\u7231"
+    magic_EN: Devotion
+    objectAndMaterial: "\u7EA2\u94DC"
+    objectAndMaterial_EN: 
+  - id: 11
+    characters: "\u4F0A\u5170\u5FB7"
+    characters_EN: Elend
+    culture: "\u6697\u773C\u79CD"
+    culture_EN: Darkeyes
+    lifeforms: "\u542C\u8005"
+    lifeforms_EN: 
+    locations: "\u8FC8\u9E4F"
+    locations_EN: MaiPon
+    magic: "\u7EDF\u5FA1"
+    magic_EN: Dominion
+    objectAndMaterial: "\u98D3\u6C99"
+    objectAndMaterial_EN: 
+  - id: 12
+    characters: "\u4F0A\u8212\u5A1C"
+    characters_EN: Eshonai
+    culture: "\u786C\u94DD\u866B"
+    culture_EN: Duralumin Gant
+    lifeforms: "\u4EC6\u65CF\u667A\u8005"
+    lifeforms_EN: 
+    locations: "\u7EB3\u5C14\u897F\u65AF"
+    locations_EN: Nalthis
+    magic: "\u7980\u8D4B"
+    magic_EN: Endowment
+    objectAndMaterial: "\u6668\u745B"
+    objectAndMaterial_EN: 
+  - id: 13
+    characters: "\u9AD8\u56FE\u7EB3"
+    characters_EN: Gaotona
+    culture: "\u5F52\u5C18\u9A91\u58EB"
+    culture_EN: Dustbringer
+    lifeforms: "\u534E\u65CF"
+    lifeforms_EN: 
+    locations: "\u5B9E\u754C\u57DF"
+    locations_EN: Physical Realm
+    magic: "\u706D\u4E16\u98CE\u66B4"
+    magic_EN: Everstorm
+    objectAndMaterial: "\u8C36\u8BB0"
+    objectAndMaterial_EN: 
+  - id: 14
+    characters: "\u8FE6\u7EF4\u62C9\u5C14"
+    characters_EN: Gavilar
+    culture: "\u7F18\u821E\u9A91\u58EB"
+    culture_EN: Edgedancer
+    lifeforms: "\u96F7\u6C99\u8FEA\u4E4C\u9A6C"
+    lifeforms_EN: 
+    locations: "\u6DF3\u6E56"
+    locations_EN: Purelake
+    magic: "\u85CF\u91D1\u672F"
+    magic_EN: Feruchemy
+    objectAndMaterial: "\u9F99\u94A2"
+    objectAndMaterial_EN: 
+  - id: 15
+    characters: "\u8D6B\u5E0C\u62FF"
+    characters_EN: Hesina
+    culture: "\u5F02\u5524\u9A91\u58EB"
+    culture_EN: Elsecaller
+    lifeforms: "\u98DE\u9CD7"
+    lifeforms_EN: 
+    locations: "\u96F7\u5E0C\u7FA4\u5C9B"
+    locations_EN: Reshi Isles
+    magic: "\u5851\u9020\u672F"
+    magic_EN: Forgery
+    objectAndMaterial: "\u786C\u94DD"
+    objectAndMaterial_EN: 
+  - id: 16
+    characters: "\u987B\u7A7A"
+    characters_EN: Hoid
+    culture: "\u85CF\u91D1\u672F\u5E08"
+    culture_EN: Feruchemist
+    lifeforms: "\u65E0\u7720\u8005"
+    lifeforms_EN: 
+    locations: "\u73AB\u7470\u5E1D\u56FD"
+    locations_EN: Rose Empire
+    magic: "\u8D8B\u5F15"
+    magic_EN: Gravitation
+    objectAndMaterial: "\u7535\u91D1"
+    objectAndMaterial_EN: 
+  - id: 17
+    characters: "\u827E\u6C99"
+    characters_EN: Ishar
+    culture: "\u706B\u7075"
+    culture_EN: Firesoul
+    lifeforms: "\u7075\u4F53"
+    lifeforms_EN: 
+    locations: "\u67D4\u5239"
+    locations_EN: Roshar
+    magic: "\u548C\u8C10"
+    magic_EN: Harmony
+    objectAndMaterial: "\u6CD5\u5668"
+    objectAndMaterial_EN: 
+  - id: 18
+    characters: "\u4F0A\u4EC0\u5A1C"
+    characters_EN: Ishnah
+    culture: "\u5851\u9020\u5E08"
+    culture_EN: Forger
+    lifeforms: "\u865A\u6E21"
+    lifeforms_EN: 
+    locations: "\u53F8\u5361\u5FB7\u745E\u5C14"
+    locations_EN: Scadrial
+    magic: "\u8840\u91D1\u672F"
+    magic_EN: Hemalurgy
+    objectAndMaterial: "\u5B9D\u77F3"
+    objectAndMaterial_EN: 
+  - id: 19
+    characters: "\u8FE6\u7199\u5A1C"
+    characters_EN: Jasnah
+    culture: "\u9B3C\u8840\u4F1A"
+    culture_EN: Ghostbloods
     lifeforms: 
     lifeforms_EN: 
-    locations: 
-    locations_EN: 
+    locations: "\u745F\u5C14"
+    locations_EN: Sel
+    magic: "\u98D3\u98CE"
+    magic_EN: Highstorm
+    objectAndMaterial: "\u795E\u91D1"
+    objectAndMaterial_EN: 
+  - id: 20
+    characters: "\u6770\u5179\u96F7\u6069"
+    characters_EN: Jezrien
+    culture: "\u94ED\u6587"
+    culture_EN: Glyphs
+    lifeforms: 
+    lifeforms_EN: 
+    locations: "\u88C2\u5F71\u754C"
+    locations_EN: Shadesmar
+    magic: "\u8363\u8A89"
+    magic_EN: Honor
+    objectAndMaterial: "\u91D1"
+    objectAndMaterial_EN: 
+  - id: 21
+    characters: "\u5361\u62C9\u4E01"
+    characters_EN: Kaladin
+    culture: "\u8840\u91D1\u672F\u5E08"
+    culture_EN: Hemalurgist
+    lifeforms: 
+    lifeforms_EN: 
+    locations: "\u88C2\u5F71\u754C"
+    locations_EN: Shadesmar
+    magic: "\u5149\u542F"
+    magic_EN: Illumination
+    objectAndMaterial: "\u548C\u8C10\u91D1"
+    objectAndMaterial_EN: 
+  - id: 22
+    characters: "\u5361\u62C9\u514B"
+    characters_EN: Kalak
+    culture: "\u4EE4\u4F7F"
+    culture_EN: Heralds
+    lifeforms: 
+    lifeforms_EN: 
+    locations: "\u7834\u788E\u5E73\u539F"
+    locations_EN: Shattered Plains
+    magic: "\u539F\u65E8"
+    magic_EN: Intent
+    objectAndMaterial: "\u4FEE\u8EAB\u88D9"
+    objectAndMaterial_EN: 
+  - id: 23
+    characters: "\u5361\u897F\u5C14"
+    characters_EN: Kelsier
+    culture: "\u5149\u8F89\u9A91\u58EB\u56E2"
+    culture_EN: Knights Radiant
+    lifeforms: 
+    lifeforms_EN: 
+    locations: "\u6DF1\u56FD"
+    locations_EN: Shinovar
     magic: "\u52A8\u673A"
     magic_EN: Invention
+    objectAndMaterial: "\u94C1"
+    objectAndMaterial_EN: 
+  - id: 24
+    characters: "\u5BC7\u6797"
+    characters_EN: Kholin
+    culture: "\u6C34\u86ED"
+    culture_EN: Leecher
+    lifeforms: 
+    lifeforms_EN: 
+    locations: "\u94F6\u5149\u57CE"
+    locations_EN: Silverlight
+    magic: "\u6388\u80FD"
+    magic_EN: Invest
     objectAndMaterial: "\u94EC\u954D\u5408\u91D1"
     objectAndMaterial_EN: 
   - id: 25
-    books: 
-    books_EN: 
-    characters: "\u5361\u897F\u5C14"
-    characters_EN: Kelsier
-    culture: "\u5B89\u629A\u8005"
-    culture_EN: Soother
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    characters: "\u62C9\u5FB7\u5229\u5B89"
+    characters_EN: Ladrian
+    culture: "\u5149\u773C\u79CD"
+    culture_EN: Lighteyes
+    lifeforms: 
+    lifeforms_EN: 
+    locations: "\u7075\u754C\u57DF"
+    locations_EN: Spiritual Realm
+    magic: "\u795E\u80FD"
+    magic_EN: Investiture
+    objectAndMaterial: "\u6E21\u8A93"
+    objectAndMaterial_EN: 
+  - id: 26
+    characters: "\u83B1\u4EC0\u7EF4"
+    characters_EN: Leshwi
+    culture: "\u7EC7\u5149\u9A91\u58EB"
+    culture_EN: Lightweaver
+    lifeforms: 
+    lifeforms_EN: 
+    locations: "\u5929\u633D"
+    locations_EN: Threnody
+    magic: "\u6148\u60B2"
+    magic_EN: Mercy
+    objectAndMaterial: "\u767D\u9574"
+    objectAndMaterial_EN: 
+  - id: 27
+    characters: "\u8389\u8299\u7279"
+    characters_EN: Lift
+    culture: "\u626F\u624B"
+    culture_EN: Lurcher
+    lifeforms: 
+    lifeforms_EN: 
+    locations: "\u4E4C\u6709\u65AF\u9E93"
+    locations_EN: Urithiru
+    magic: "\u91D1\u5C5E\u6280\u827A"
+    magic_EN: Metallic Arts
+    objectAndMaterial: "\u84DD\u5B9D\u77F3"
+    objectAndMaterial_EN: 
+  - id: 28
+    characters: "\u6797"
+    characters_EN: Lin
+    culture: "\u8FF7\u96FE\u4E4B\u5B50"
+    culture_EN: Mistborn
+    lifeforms: 
+    lifeforms_EN: 
+    locations: "\u5C24\u4F26"
+    locations_EN: Yolen
+    magic: "\u62FF\u8D6B\u5C14\u7EBD\u5E26"
+    magic_EN: Nahel bond
+    objectAndMaterial: "\u788E\u745B\u5203"
+    objectAndMaterial_EN: 
+  - id: 29
+    characters: "\u674E\u4F26"
+    characters_EN: Lirin
+    culture: "\u954D\u7206"
+    culture_EN: Nicroburst
     lifeforms: 
     lifeforms_EN: 
     locations: 
     locations_EN: 
-    magic: "\u6148\u60B2"
-    magic_EN: Mercy
-    objectAndMaterial: "\u9549"
+    magic: "\u4EC7\u6068"
+    magic_EN: Odium
+    objectAndMaterial: "\u788E\u745B\u7532"
     objectAndMaterial_EN: 
-  - id: 26
-    books: 
-    books_EN: 
-    characters: "\u987B\u7A7A"
-    characters_EN: Hoid
-    culture: "\u70DF\u9635"
-    culture_EN: Copperclound
-    eventsAndEras: 
-    eventsAndEras_EN: 
+  - id: 30
+    characters: "\u739B\u62C9\u831C"
+    characters_EN: Marasi
+    culture: "\u9884\u8A00\u5E08"
+    culture_EN: Oracle
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: "\u5782\u8D2F\u70B9"
+    magic_EN: Perpendicularity
+    objectAndMaterial: "\u70DF\u6676\u77F3"
+    objectAndMaterial_EN: 
+  - id: 31
+    characters: "\u7C73\u72C4\u5384\u65AF"
+    characters_EN: Midius
+    culture: "\u767D\u9574\u81C2"
+    culture_EN: Pewterarm
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: "\u5B58\u7559"
+    magic_EN: Preservation
+    objectAndMaterial: "\u5BF9\u82A6"
+    objectAndMaterial_EN: 
+  - id: 32
+    characters: "\u83AB\u963F\u4EC0"
+    characters_EN: Moash
+    culture: "\u8109\u52A8"
+    culture_EN: Pulser
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: "\u7EED\u5EF6"
+    magic_EN: Progression
+    objectAndMaterial: "\u6DA6\u77F3"
+    objectAndMaterial_EN: 
+  - id: 33
+    characters: "\u7A46\u91CC\u5179"
+    characters_EN: Mraize
+    culture: "\u717D\u52A8\u8005"
+    culture_EN: Rioter
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: "\u706D\u7EDD"
+    magic_EN: Ruin
+    objectAndMaterial: "\u94A2"
+    objectAndMaterial_EN: 
+  - id: 34
+    characters: "\u7EB3\u5C14"
+    characters_EN: Nale
+    culture: "\u641C\u5BFB\u8005"
+    culture_EN: Seeker
     lifeforms: 
     lifeforms_EN: 
     locations: 
     locations_EN: 
     magic: "\u795E\u745B"
     magic_EN: Shard
-    objectAndMaterial: "\u5F2F\u7BA1\u5408\u91D1"
+    objectAndMaterial: "\u9521"
     objectAndMaterial_EN: 
-  - id: 27
-    books: 
-    books_EN: 
-    characters: "\u5BC7\u6797"
-    characters_EN: Kholin
-    culture: "\u641C\u5BFB\u8005"
-    culture_EN: Seeker
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: "\u539F\u65E8"
-    magic_EN: Intent
-    objectAndMaterial: "\u7535\u91D1"
-    objectAndMaterial_EN: 
-  - id: 28
-    books: 
-    books_EN: 
-    characters: "\u8428\u5C14\u8FBE\u5361"
-    characters_EN: Thaidakar
-    culture: "\u98CE\u8BED"
-    culture_EN: Windwhisperer
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: "\u827E\u6B27\u94CE"
-    magic_EN: AonDor
-    objectAndMaterial: "\u9F99\u94A2"
-    objectAndMaterial_EN: 
-  - id: 29
-    books: 
-    books_EN: 
-    characters: "\u6797"
-    characters_EN: Lin
-    culture: "\u86EE\u529B"
-    culture_EN: Brute
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: "\u5524\u9192"
-    magic_EN: Awakening
-    objectAndMaterial: "\u6CD5\u5668"
-    objectAndMaterial_EN: 
-  - id: 30
-    books: 
-    books_EN: 
-    characters: "\u8FBE\u74E6"
-    characters_EN: Davar
-    culture: "\u661F\u706B"
-    culture_EN: Sparker
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: "\u8840\u5370\u672F"
-    magic_EN: Bloodsealing
-    objectAndMaterial: 
-    objectAndMaterial_EN: 
-  - id: 31
-    books: 
-    books_EN: 
-    characters: "\u963F\u591A\u62FF\u897F"
-    characters_EN: Adonalsium
-    culture: "\u706B\u7075"
-    culture_EN: Firesoul
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: "\u5851\u9020\u672F"
-    magic_EN: Forgery
-    objectAndMaterial: 
-    objectAndMaterial_EN: 
-  - id: 32
-    books: 
-    books_EN: 
-    characters: "\u674E\u4F26"
-    characters_EN: Lirin
-    culture: "\u5E93\u85CF"
-    culture_EN: Archivist
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: "\u91D1\u5C5E\u6280\u827A"
-    magic_EN: Metallic Arts
-    objectAndMaterial: 
-    objectAndMaterial_EN: 
-  - id: 33
-    books: 
-    books_EN: 
-    characters: "\u63D0\u5B89"
-    characters_EN: Tien
+  - id: 35
+    characters: "\u7EB3\u74E6\u59AE"
+    characters_EN: Navani
     culture: "\u54E8\u5175"
     culture_EN: Sentry
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: "\u7EFD\u88C2"
+    magic_EN: Snapping
+    objectAndMaterial: "\u58EB\u7EC5\u888D"
+    objectAndMaterial_EN: 
+  - id: 36
+    characters: "\u591C\u8840"
+    characters_EN: Nightblood
+    culture: "\u65E7\u5F71\u68EE\u68EE"
+    culture_EN: Shadows of Self
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: "\u7075\u7F51"
+    magic_EN: Spiritweb
+    objectAndMaterial: "\u950C "
+    objectAndMaterial_EN: 
+  - id: 37
+    characters: "\u56FE\u817E"
+    characters_EN: Pattern
+    culture: "\u788E\u745B\u6B66\u58EB"
+    culture_EN: Shardbearer
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: "\u98D3\u5149"
+    magic_EN: Stormlight
+    objectAndMaterial: 
+    objectAndMaterial_EN: 
+  - id: 38
+    characters: "\u96F7\u745F"
+    characters_EN: Rayse
+    culture: "\u63A0\u5F71"
+    culture_EN: Skimmer
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: "\u98D3\u80FD"
+    magic_EN: Surge
+    objectAndMaterial: 
+    objectAndMaterial_EN: 
+  - id: 39
+    characters: "\u96F7\u7EB3\u6797"
+    characters_EN: Renarin
+    culture: "\u7834\u5929\u9A91\u58EB"
+    culture_EN: Skybreaker
     lifeforms: 
     lifeforms_EN: 
     locations: 
@@ -574,15 +520,37 @@ MonoBehaviour:
     magic_EN: Surgebinding
     objectAndMaterial: 
     objectAndMaterial_EN: 
-  - id: 34
-    books: 
-    books_EN: 
-    characters: "\u96F7\u745F"
-    characters_EN: Rayse
-    culture: "\u786C\u94DD\u866B"
-    culture_EN: Duralumin Gant
-    eventsAndEras: 
-    eventsAndEras_EN: 
+  - id: 40
+    characters: "\u6C99\u8D5B\u5FB7"
+    characters_EN: Sazed
+    culture: "\u6ED1\u884C"
+    culture_EN: Slider
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: "\u52C7\u6B66"
+    magic_EN: Valor
+    objectAndMaterial: 
+    objectAndMaterial_EN: 
+  - id: 41
+    characters: "\u838E\u62C9\u4EC0"
+    characters_EN: Shalash
+    culture: "\u5B89\u629A\u8005"
+    culture_EN: Soother
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: "\u5316\u5883"
+    magic_EN: Virtuosity
+    objectAndMaterial: 
+    objectAndMaterial_EN: 
+  - id: 42
+    characters: "\u6C99\u5170"
+    characters_EN: Shallan
+    culture: "\u661F\u706B"
+    culture_EN: Sparker
     lifeforms: 
     lifeforms_EN: 
     locations: 
@@ -591,168 +559,24 @@ MonoBehaviour:
     magic_EN: Voidbinding
     objectAndMaterial: 
     objectAndMaterial_EN: 
-  - id: 35
-    books: 
-    books_EN: 
-    characters: "\u6770\u5179\u96F7\u6069"
-    characters_EN: Jezrien
-    culture: "\u6C34\u86ED"
-    culture_EN: Leecher
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: "\u675F\u7F1A"
-    magic_EN: Adhesion
-    objectAndMaterial: 
-    objectAndMaterial_EN: 
-  - id: 36
-    books: 
-    books_EN: 
-    characters: "\u7EB3\u5C14"
-    characters_EN: Nale
-    culture: "\u954D\u7206"
-    culture_EN: Nicroburst
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: "\u8D8B\u5F15"
-    magic_EN: Gravitation
-    objectAndMaterial: 
-    objectAndMaterial_EN: 
-  - id: 37
-    books: 
-    books_EN: 
-    characters: "\u838E\u62C9\u4EC0"
-    characters_EN: Shalash
-    culture: "\u8109\u52A8"
-    culture_EN: Pulser
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: "\u7EED\u5EF6"
-    magic_EN: Progression
-    objectAndMaterial: 
-    objectAndMaterial_EN: 
-  - id: 38
-    books: 
-    books_EN: 
-    characters: "\u5361\u62C9\u514B"
-    characters_EN: Kalak
-    culture: "\u6ED1\u884C"
-    culture_EN: Slider
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: "\u5149\u542F"
-    magic_EN: Illumination
-    objectAndMaterial: 
-    objectAndMaterial_EN: 
-  - id: 39
-    books: 
-    books_EN: 
-    characters: "\u5854\u62C9\u5185"
-    characters_EN: Talanel
-    culture: "\u547D\u5E08"
-    culture_EN: Augur
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: 
-    magic_EN: 
-    objectAndMaterial: 
-    objectAndMaterial_EN: 
-  - id: 40
-    books: 
-    books_EN: 
-    characters: "\u827E\u6C99"
-    characters_EN: Ishar
-    culture: "\u9884\u8A00\u5E08"
-    culture_EN: Oracle
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: 
-    magic_EN: 
-    objectAndMaterial: 
-    objectAndMaterial_EN: 
-  - id: 41
-    books: 
-    books_EN: 
-    characters: "\u8FE6\u7EF4\u62C9\u5C14"
-    characters_EN: Gavilar
-    culture: "\u8DC3\u754C\u8005"
-    culture_EN: Worldhopper
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: 
-    magic_EN: 
-    objectAndMaterial: 
-    objectAndMaterial_EN: 
-  - id: 42
-    books: 
-    books_EN: 
-    characters: "\u5947\u91CC\u5947\u91CC"
-    characters_EN: Chiri-Chiri
-    culture: "\u5851\u9020\u5E08"
-    culture_EN: Forger
-    eventsAndEras: 
-    eventsAndEras_EN: 
-    lifeforms: 
-    lifeforms_EN: 
-    locations: 
-    locations_EN: 
-    magic: 
-    magic_EN: 
-    objectAndMaterial: 
-    objectAndMaterial_EN: 
   - id: 43
-    books: 
-    books_EN: 
-    characters: 
-    characters_EN: 
-    culture: "\u9555\u91D1\u672F\u5E08"
-    culture_EN: Allomancer
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    characters: "\u6492\u5357\u5FD2"
+    characters_EN: Sja-anat
+    culture: "\u94A2\u5954"
+    culture_EN: Steelrunner
     lifeforms: 
     lifeforms_EN: 
     locations: 
     locations_EN: 
-    magic: 
-    magic_EN: 
+    magic: "\u5947\u601D"
+    magic_EN: Whimsy
     objectAndMaterial: 
     objectAndMaterial_EN: 
   - id: 44
-    books: 
-    books_EN: 
-    characters: 
-    characters_EN: 
-    culture: "\u5524\u9192\u8005"
-    culture_EN: Awakener
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    characters: "\u53F2\u7279\u82AE\u65AF"
+    characters_EN: Steris
+    culture: "\u62A4\u5730\u9A91\u58EB"
+    culture_EN: Stoneward
     lifeforms: 
     lifeforms_EN: 
     locations: 
@@ -762,14 +586,10 @@ MonoBehaviour:
     objectAndMaterial: 
     objectAndMaterial_EN: 
   - id: 45
-    books: 
-    books_EN: 
-    characters: 
-    characters_EN: 
-    culture: "\u8840\u5370\u5E08"
-    culture_EN: Bloodsealer
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    characters: "\u98D3\u98CE\u4E4B\u7236"
+    characters_EN: Stormfather
+    culture: "\u6267\u6CD5\u9555\u91D1"
+    culture_EN: The Alloy of Law
     lifeforms: 
     lifeforms_EN: 
     locations: 
@@ -779,14 +599,10 @@ MonoBehaviour:
     objectAndMaterial: 
     objectAndMaterial_EN: 
   - id: 46
-    books: 
-    books_EN: 
-    characters: 
-    characters_EN: 
-    culture: "\u6CD5\u5668\u5E08"
-    culture_EN: Artifabrian
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    characters: "\u53F2\u7279\u62C9\u592B"
+    characters_EN: Straff
+    culture: "\u60B2\u60BC\u62A4\u8155"
+    culture_EN: The Bands of Mourning
     lifeforms: 
     lifeforms_EN: 
     locations: 
@@ -796,14 +612,10 @@ MonoBehaviour:
     objectAndMaterial: 
     objectAndMaterial_EN: 
   - id: 47
-    books: 
-    books_EN: 
-    characters: 
-    characters_EN: 
-    culture: "\u5851\u9020\u5E08"
-    culture_EN: Forger
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    characters: "\u831C\u8299\u854A\u5A1C"
+    characters_EN: Sylphrena
+    culture: "\u7687\u5E1D\u9B42"
+    culture_EN: The Emperor's Soul
     lifeforms: 
     lifeforms_EN: 
     locations: 
@@ -813,14 +625,10 @@ MonoBehaviour:
     objectAndMaterial: 
     objectAndMaterial_EN: 
   - id: 48
-    books: 
-    books_EN: 
-    characters: 
-    characters_EN: 
-    culture: "\u8840\u91D1\u672F\u5E08"
-    culture_EN: Hemalurgist
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    characters: "\u6CFD\u65AF"
+    characters_EN: Szeth
+    culture: "\u6700\u540E\u5E1D\u56FD"
+    culture_EN: The Final Empire
     lifeforms: 
     lifeforms_EN: 
     locations: 
@@ -830,14 +638,10 @@ MonoBehaviour:
     objectAndMaterial: 
     objectAndMaterial_EN: 
   - id: 49
-    books: 
-    books_EN: 
-    characters: 
-    characters_EN: 
-    culture: "\u85CF\u91D1\u672F\u5E08"
-    culture_EN: Feruchemist
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    characters: "\u5854\u62C9\u5185"
+    characters_EN: Talanel
+    culture: "\u6C38\u4E16\u82F1\u96C4"
+    culture_EN: The Hero of Ages
     lifeforms: 
     lifeforms_EN: 
     locations: 
@@ -847,14 +651,10 @@ MonoBehaviour:
     objectAndMaterial: 
     objectAndMaterial_EN: 
   - id: 50
-    books: 
-    books_EN: 
-    characters: 
-    characters_EN: 
-    culture: 
-    culture_EN: 
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    characters: "\u5854\u62C9\u5185"
+    characters_EN: Talenel
+    culture: "\u738B\u8005\u4E4B\u8DEF"
+    culture_EN: The Way of Kings
     lifeforms: 
     lifeforms_EN: 
     locations: 
@@ -864,14 +664,10 @@ MonoBehaviour:
     objectAndMaterial: 
     objectAndMaterial_EN: 
   - id: 51
-    books: 
-    books_EN: 
-    characters: 
-    characters_EN: 
-    culture: 
-    culture_EN: 
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    characters: "\u5854\u62C9\u6A0A\u5409\u5B89"
+    characters_EN: Taravangian
+    culture: "\u5347\u534E\u4E4B\u4E95"
+    culture_EN: The Well of Ascension
     lifeforms: 
     lifeforms_EN: 
     locations: 
@@ -881,14 +677,10 @@ MonoBehaviour:
     objectAndMaterial: 
     objectAndMaterial_EN: 
   - id: 52
-    books: 
-    books_EN: 
-    characters: 
-    characters_EN: 
-    culture: 
-    culture_EN: 
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    characters: "\u8428\u5C14\u8FBE\u5361"
+    characters_EN: Thaidakar
+    culture: "\u6253\u624B"
+    culture_EN: Thug
     lifeforms: 
     lifeforms_EN: 
     locations: 
@@ -898,14 +690,10 @@ MonoBehaviour:
     objectAndMaterial: 
     objectAndMaterial_EN: 
   - id: 53
-    books: 
-    books_EN: 
-    characters: 
-    characters_EN: 
-    culture: 
-    culture_EN: 
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    characters: "\u63D0\u5B89"
+    characters_EN: Tien
+    culture: "\u9521\u773C"
+    culture_EN: Tineye
     lifeforms: 
     lifeforms_EN: 
     locations: 
@@ -915,14 +703,10 @@ MonoBehaviour:
     objectAndMaterial: 
     objectAndMaterial_EN: 
   - id: 54
-    books: 
-    books_EN: 
-    characters: 
-    characters_EN: 
-    culture: 
-    culture_EN: 
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    characters: "\u5EF7\u6735"
+    characters_EN: Tindwyl
+    culture: "\u8BC6\u771F\u9A91\u58EB"
+    culture_EN: Truthwatcher
     lifeforms: 
     lifeforms_EN: 
     locations: 
@@ -932,14 +716,10 @@ MonoBehaviour:
     objectAndMaterial: 
     objectAndMaterial_EN: 
   - id: 55
-    books: 
-    books_EN: 
-    characters: 
-    characters_EN: 
-    culture: 
-    culture_EN: 
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    characters: "\u74E6\u897F\u5C14"
+    characters_EN: Vasher
+    culture: "\u6C83\u6797\u6559"
+    culture_EN: Vorinism
     lifeforms: 
     lifeforms_EN: 
     locations: 
@@ -949,14 +729,10 @@ MonoBehaviour:
     objectAndMaterial: 
     objectAndMaterial_EN: 
   - id: 56
-    books: 
-    books_EN: 
-    characters: 
-    characters_EN: 
-    culture: 
-    culture_EN: 
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    characters: "\u6D63\u7EB1"
+    characters_EN: Veil
+    culture: "\u5FF5\u5316\u9A91\u58EB"
+    culture_EN: Willshaper
     lifeforms: 
     lifeforms_EN: 
     locations: 
@@ -966,14 +742,10 @@ MonoBehaviour:
     objectAndMaterial: 
     objectAndMaterial_EN: 
   - id: 57
-    books: 
-    books_EN: 
-    characters: 
-    characters_EN: 
-    culture: 
-    culture_EN: 
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    characters: "\u6CDB\u56FE\u5C14"
+    characters_EN: Venture
+    culture: "\u98CE\u884C\u9A91\u58EB"
+    culture_EN: Windrunner
     lifeforms: 
     lifeforms_EN: 
     locations: 
@@ -983,14 +755,10 @@ MonoBehaviour:
     objectAndMaterial: 
     objectAndMaterial_EN: 
   - id: 58
-    books: 
-    books_EN: 
-    characters: 
-    characters_EN: 
-    culture: 
-    culture_EN: 
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    characters: "\u7EB9"
+    characters_EN: Vin
+    culture: "\u98CE\u8BED"
+    culture_EN: Windwhisperer
     lifeforms: 
     lifeforms_EN: 
     locations: 
@@ -1000,14 +768,88 @@ MonoBehaviour:
     objectAndMaterial: 
     objectAndMaterial_EN: 
   - id: 59
-    books: 
-    books_EN: 
+    characters: "\u4E07\u601D\u9732"
+    characters_EN: Wan ShaiLu
+    culture: "\u5149\u8F89\u771F\u8A00"
+    culture_EN: Words of Radiance
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: 
+    objectAndMaterial_EN: 
+  - id: 60
+    characters: "\u74E6\u514B\u65AF"
+    characters_EN: Waxilliam
+    culture: "\u8DC3\u754C\u8005"
+    culture_EN: Worldhopper
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: 
+    objectAndMaterial_EN: 
+  - id: 61
+    characters: "\u97E6\u6069"
+    characters_EN: Wayne
+    culture: 
+    culture_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: 
+    objectAndMaterial_EN: 
+  - id: 62
     characters: 
     characters_EN: 
     culture: 
     culture_EN: 
-    eventsAndEras: 
-    eventsAndEras_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: 
+    objectAndMaterial_EN: 
+  - id: 63
+    characters: 
+    characters_EN: 
+    culture: 
+    culture_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: 
+    objectAndMaterial_EN: 
+  - id: 64
+    characters: 
+    characters_EN: 
+    culture: 
+    culture_EN: 
+    lifeforms: 
+    lifeforms_EN: 
+    locations: 
+    locations_EN: 
+    magic: 
+    magic_EN: 
+    objectAndMaterial: 
+    objectAndMaterial_EN: 
+  - id: 65
+    characters: 
+    characters_EN: 
+    culture: 
+    culture_EN: 
     lifeforms: 
     lifeforms_EN: 
     locations: 
