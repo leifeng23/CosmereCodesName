@@ -44,7 +44,7 @@ public class ScreenShot : MonoBehaviour
         string filePath = Path.Combine(folderPath, filename);
         ScreenCapture.CaptureScreenshot(filePath);
 
-        yield return new WaitForSeconds(0.1f); // 等待一小段时间确保文件写入完成
+        yield return new WaitForSeconds(0.5f); // 等待一小段时间确保文件写入完成
         using (UnityWebRequest www = UnityWebRequestTexture.GetTexture("file://" + filePath))
         {
             yield return www.SendWebRequest();

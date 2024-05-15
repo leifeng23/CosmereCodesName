@@ -35,6 +35,7 @@ public class Slate : MonoBehaviour
     {
         isClicked = !isClicked;
         UpdateColor(isClicked);
+        GameManager.Instance.UpdateNum();
     }
 }
 

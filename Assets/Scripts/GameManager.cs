@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -24,11 +25,23 @@ public class GameManager : MonoBehaviour
     public CosmereCodesName codesName;
     public List<Toggle> toggleList;
     public List<Slate> slates;
+    public TextMeshProUGUI redNum;
+    public TextMeshProUGUI blueNum;
     public Dictionary<CodesName, bool> codesNameEnableDic;
     public Dictionary<int, (string, string)> codesNameDic;     // 中文and英文 
 
+    public static GameManager Instance;
     private void Awake()
     {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+
         codesNameEnableDic = new Dictionary<CodesName, bool>();
 
         // 初始化字典，确保每个CodesName都有初始值
@@ -173,6 +186,35 @@ public class GameManager : MonoBehaviour
     public void ClickExitButton()
     {
         isSpy = false;
+        foreach (var s in slates)
+        {
+            s.isClicked = false;
+            s.UpdateColor(isSpy);
+        }
+        UpdateNum();
+    }
+
+    public void UpdateNum()
+    {
+        int red = 9;
+        int blue = 8;
+        foreach (var s in slates)
+        {
+            if (!s.isClicked)
+            {
+                continue;
+            }
+            if (s.factionColor == Faction.Red)
+            {
+                red--;
+            }
+            else if (s.factionColor == Faction.Blue)
+            {
+                blue--;
+            }
+        }
+        redNum.text = red.ToString();
+        blueNum.text = blue.ToString();
     }
 
     #endregion
