@@ -183,7 +183,7 @@ MonoBehaviour:
     objectAndMaterial: "\u8C36\u8BB0"
     objectAndMaterial_EN: Diagram
   - id: 14
-    characters: "\u8FE6\u7EF4\u62C9\u5C14"
+    characters: "\u672B\u65E5\u8B66\u866B"
     characters_EN: Gavilar
     culture: "\u7F18\u821E\u9A91\u58EB"
     culture_EN: Edgedancer
@@ -1614,3 +1614,169 @@ MonoBehaviour:
     spot_EN: 
     concept: 
     concept_EN: 
+  QQFriends:
+  - id: 1
+    mainTitle: "\u96EA\u9876\u9E45\u7684\u732B"
+    remark: "\u5821\u4EE3\u738B"
+  - id: 2
+    mainTitle: "\u77EE\u811A\u9752"
+    remark: "28\u4F4F\u6301"
+  - id: 3
+    mainTitle: "\u767D\u7FBD"
+    remark: "\u6CB3\u9A6C\u5251\u56DB"
+  - id: 4
+    mainTitle: "Botanica_\u54C8"
+    remark: "\u987B\u7A7A"
+  - id: 5
+    mainTitle: "\u9752\u75AF"
+    remark: "\u4E09\u754C\u5B99\u6CB9\u6C40"
+  - id: 6
+    mainTitle: "\u94F6\u88C5\u5600\u561F\u6068"
+    remark: "\u5E1D\u7687\u641C\u9B42\u8005"
+  - id: 7
+    mainTitle: "\u6CE2\u987F"
+    remark: "\u7BA1\u7406\u5458"
+  - id: 8
+    mainTitle: "\u679C\u8336"
+    remark: "\u7BA1\u7406\u5458"
+  - id: 9
+    mainTitle: "\u731B\u731B\u5927\u738B"
+    remark: "\u53C2\u7528\u963F\u731B"
+  - id: 10
+    mainTitle: "\u5F17\u5170"
+    remark: "\u8DC3\u98CE\u5411\u6807"
+  - id: 11
+    mainTitle: "\u5E97\u957F"
+    remark: "\u5343\u5E74\u5C3A\u540D\u8001\u5E97"
+  - id: 12
+    mainTitle: "\u5149\u4E0E\u5F71\u4E4B\u54E5"
+    remark: "\u4E07\u6761\u5782\u4E0B"
+  - id: 13
+    mainTitle: "\u5361\u62C9\u53C2"
+    remark: "\u731B\u5FB7\u65AF\u9E20"
+  - id: 14
+    mainTitle: "\u672B\u65E5\u8B66\u866B"
+    remark: "\u6697\u8272\u306E\u8B66"
+  - id: 15
+    mainTitle: "\u803F\u5FB7\u62C9"
+    remark: "\u597D\u50CF\u4E00\u6761\u72D7\u554A"
+  - id: 16
+    mainTitle: Vineland
+    remark: "\u662F\uFF0C\u662F\u5927\u4F6C\uFF01"
+  - id: 17
+    mainTitle: "\u5FAE\u98CE"
+    remark: "\u89C1\u5FAE\u77E5\u98D3"
+  - id: 18
+    mainTitle: "\u96C0\u9E70"
+    remark: "\u5730\u6D77\u5357\u65E0\u83E9\u8428"
+  - id: 19
+    mainTitle: "\u745B\u5203\u971C\u96EA\u660E"
+    remark: "\u7EB3\u5179\u7684\u5916\u5957"
+  - id: 20
+    mainTitle: "\u9B3C\u5F71"
+    remark: "\u91CD\u751F\u8FD8\u662F\u62D6\u628A"
+  - id: 21
+    mainTitle: "\u6DB5\u54E5"
+    remark: "\u5148\u80FD\u62BD\u5956\u518D\u8BF4"
+  - id: 22
+    mainTitle: "Felisin \u554A!!!!!"
+    remark: "\u91CF\u901F\u4F7F"
+  - id: 23
+    mainTitle: "\u4F5B\u7F57\u4F26\u8428"
+    remark: "\u5730\u94C1\u72C2\u98D9"
+  - id: 24
+    mainTitle: "\u736D\u736D/\u4E4C\u4E91"
+    remark: "\u55B5\u70B9\u4E4C\u736D\u90E1\u738B"
+  - id: 25
+    mainTitle: "\u4F0A\u5170\u5FB7"
+    remark: "\u4E00\u7537\u7684\u7FFB\u8F66"
+  - id: 26
+    mainTitle: "\u963F\u6731\uFF08\u9B54\u90FD\u7EFF\u5E3D\u51EF\u5B50\u738B\uFF09"
+    remark: "\u9B3C\u5B50\u6BCD\u53C2"
+  - id: 27
+    mainTitle: "\u672B\u65E5\u6218\u866B"
+    remark: "\u8B66\u9012\u7EB8\u74E6"
+  - id: 28
+    mainTitle: "Rin\uFF08\u6B3A\u8D1F\u5C0F\u5B69\u6211\u6700\u64C5\u957F\u4E86\uFF09"
+    remark: "\u8FD9\u8C01\uFF1F"
+  - id: 29
+    mainTitle: "\u94C1\u5934\u9CDF"
+    remark: "\u77E5\u4E66\u8FBE\u9CA4"
+  - id: 30
+    mainTitle: "\u6587\u5B66\u66B4\u541B"
+    remark: "\u4F60\u4E5F\u662F\u66B4\u541B\uFF1F"
+  - id: 31
+    mainTitle: "\u8F68\u8F68"
+    remark: "\u4E0D\u8BC6\u54C8\u59D0"
+  - id: 32
+    mainTitle: "\u4E94\u6708\u75C5\u4E2D\u4E8C"
+    remark: "\u5FEB\u4E94\u6708\u7684\u9CA4"
+  - id: 33
+    mainTitle: "\u74E6\u514B\u65AF"
+    remark: "925\u7684\u8D35\u65CF"
+  - id: 34
+    mainTitle: "\u91CE\u6591\u9A6C"
+    remark: "\u94F6\u5149\u56FE\u7BA1"
+  - id: 35
+    mainTitle: "\u53EA\u662F\u4E00\u5757\u4ED3\u9F20\u65B9\u5DFE"
+    remark: "\u4E00\u9521\u773C\u77AA\u6B7B\u4F60"
+  - id: 36
+    mainTitle: "\u809A\u809A\u8001\u5E08"
+    remark: "\u7EB9"
+  - id: 37
+    mainTitle: "\u6CFD\u8363\uFF08\u963F\u96F6\uFF09"
+    remark: 808800
+  - id: 38
+    mainTitle: "\u679C\u5409\u5B89"
+    remark: "\u679C\u5B50\u72F8\u722C\u5927\u6811"
+  - id: 39
+    mainTitle: starjerry
+    remark: "\u661F\u9F20"
+  - id: 40
+    mainTitle: DeloresBreaker
+    remark: "\u65AD\u8DEF\u5668"
+  - id: 41
+    mainTitle: "\u795E\u732B\u7F57\u5C3C\u4F11"
+    remark: "\u6C99\u8D5B\u5FB7"
+  - id: 42
+    mainTitle: "\u54B8\u9C7C\u6E23\u6E23"
+    remark: "\u5DF4\u7237"
+  - id: 43
+    mainTitle: A stick
+    remark: "\u6C99\u8D5B\u5FB7"
+  - id: 44
+    mainTitle: "\u9EC4\u660F"
+    remark: "\u7A7A\u60F3\u793E\u4F1A\u4E3B\u4E49\u5B66\u5BB6"
+  - id: 45
+    mainTitle: "\u805A\u805A"
+    remark: "\u513F\u7AE5\u6587\u5B66\u5960\u57FA\u4EBA"
+  - id: 46
+    mainTitle: "\u5927\u725B\u8089\u5305\u5B50"
+    remark: "\u5472\u7259\u7B11\u5320"
+  - id: 47
+    mainTitle: "\u9CA8\u53D1\u571F\u8C46"
+    remark: "\u8054\u901A\u4E1A\u52A1\u5458"
+  - id: 48
+    mainTitle: Long-forgotten Evil
+    remark: "\u9ED1\u65CB\u98CE"
+  - id: 49
+    mainTitle: "\u9ED1\u9A91\u58EB"
+    remark: "\u5395\u56FEAI"
+  - id: 50
+    mainTitle: "\u5F7C\u5CB8\u68A6\u6D6E\u751F"
+    remark: "\u4E03\u9CA4"
+  - id: 51
+    mainTitle: "\u5F7C\u5904\u6C34\u5982\u9152"
+    remark: "\u6000\u7591\u8BBA\u8005"
+  - id: 52
+    mainTitle: "\u8FF7\u7CCA\u4E4B\u5B50"
+    remark: "\u7CCA\u53D4"
+  - id: 53
+    mainTitle: "\u819C\u6CD5\u5E08\u5471\u5431"
+    remark: "\u4E03\u8FDB\u4E03\u51FA"
+  - id: 54
+    mainTitle: "\u5C0F\u9F99"
+    remark: "\u593A\u53D6\u7FA4\u661F\u8BD1\u8005"
+  - id: 55
+    mainTitle: "\u9732\u53EF\u5C0F\u6EAA"
+    remark: "\u6E21\u9E26\u4E4B\u5F71\u8BD1\u8005"

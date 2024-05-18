@@ -16,6 +16,7 @@ public enum CodesName
     CytonicCharacters,
     CytonicSpots,
     CytonicConcepts,
+    QQFriends,
 }
 
 public class GameManager : MonoBehaviour
@@ -23,7 +24,9 @@ public class GameManager : MonoBehaviour
     private bool isSpy = false;
     private List<Faction> randomColor;
     public CosmereCodesName codesName;
-    public List<Toggle> toggleList;
+    public List<Toggle> cosmereCN;
+    public List<Toggle> cytonicCN;
+    public List<Toggle> qqCN;
     public List<Slate> slates;
     public TextMeshProUGUI redNum;
     public TextMeshProUGUI blueNum;
@@ -62,10 +65,21 @@ public class GameManager : MonoBehaviour
 
     private void Init()
     {
-        for (int i = 0; i < toggleList.Count; i++)
+        int a = 0;
+        for (int i = 0; i < cosmereCN.Count; i++)
         {
-            InitToggle(toggleList[i], (CodesName)i);
+            InitToggle(cosmereCN[i], (CodesName)a);
+            a++;
         }
+
+        for (int i = 0; i < cytonicCN.Count; i++)
+        {
+            InitToggle(cytonicCN[i], (CodesName)a);
+            a++;
+        }
+
+        InitToggle(qqCN[0], (CodesName)a);
+        a++;
 
         void InitToggle(Toggle t, CodesName cN)
         {
@@ -84,14 +98,15 @@ public class GameManager : MonoBehaviour
 
     public void CheckoutFatherAndSon()
     {
-        toggleList[1].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
-        toggleList[2].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
-        toggleList[3].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
-        toggleList[4].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
-        toggleList[5].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
-        toggleList[7].gameObject.SetActive(codesNameEnableDic[CodesName.Cytonic]);
-        toggleList[8].gameObject.SetActive(codesNameEnableDic[CodesName.Cytonic]);
-        toggleList[9].gameObject.SetActive(codesNameEnableDic[CodesName.Cytonic]);
+        for (int i = 1; i < cosmereCN.Count; i++)
+        {
+            cosmereCN[i].gameObject.SetActive(codesNameEnableDic[CodesName.Cosmere]);
+        }
+
+        for (int i = 1; i < cytonicCN.Count; i++)
+        {
+            cytonicCN[i].gameObject.SetActive(codesNameEnableDic[CodesName.Cytonic]);
+        }
     }
 
     public void SaveCodesNameEnable(CodesName cN, bool isOn)
@@ -227,20 +242,25 @@ public class GameManager : MonoBehaviour
 
         foreach (CodesName codeName in Enum.GetValues(typeof(CodesName)))
         {
-            if (IsMainCategory(codeName))
+            if (!codeName.ToString().StartsWith("QQ"))
             {
-                continue; // 跳过大标题
-            }
+                if (IsMainCategory(codeName))
+                {
+                    continue; // 跳过大标题
+                }
 
-            if (!codesNameEnableDic[GetParentCategory(codeName)])
-            {
-                continue; // 对应的大标题未启用，跳过该子类别
+                if (!codesNameEnableDic[GetParentCategory(codeName)])
+                {
+                    continue; // 对应的大标题未启用，跳过该子类别
+                }
             }
 
             if (!codesNameEnableDic[codeName])
             {
                 continue;
             }
+
+            Debug.Log(codeName);
 
             if (codeName.ToString().StartsWith("Cosmere"))
             {
@@ -268,6 +288,22 @@ public class GameManager : MonoBehaviour
                     if (!string.IsNullOrEmpty(chinese) && !string.IsNullOrEmpty(english))
                     {
                         codesNameDic[currentId] = (chinese, english);
+                        currentId++;
+                    }
+                }
+            }
+            else if (codeName.ToString().StartsWith("QQ"))
+            {
+                List<NormalEntity> entityList = codesName.QQFriends;
+                foreach (NormalEntity entity in entityList)
+                {
+                    string mainTitle = GetNonEmptyString(entity, codeName);
+                    string remark = GetNonEmptyString(entity, codeName, true);
+
+                    if (!string.IsNullOrEmpty(mainTitle) && !string.IsNullOrEmpty(remark))
+                    {
+                        codesNameDic[currentId] = (mainTitle, remark);
+                        Debug.Log(mainTitle + remark);
                         currentId++;
                     }
                 }
@@ -317,6 +353,11 @@ public class GameManager : MonoBehaviour
             default:
                 return string.Empty;
         }
+    }
+
+    private string GetNonEmptyString(NormalEntity entity, CodesName codeName, bool isRemark = false)
+    {
+        return isRemark ? entity.remark : entity.mainTitle;
     }
     #endregion
 }

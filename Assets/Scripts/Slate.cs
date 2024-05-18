@@ -27,7 +27,6 @@ public class Slate : MonoBehaviour
         {
             c.SetActive(false);
         }
-        Debug.Log((int)factionColor);
         colors[(int)factionColor].SetActive(isShow);
     }
 
